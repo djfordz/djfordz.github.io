@@ -1,0 +1,26 @@
+# Site settings
+title: DFWNerd.com
+email: djfordz@gmail.com
+author: David Ford
+description: > # this means to ignore newlines until "baseurl:"
+  This is my little corner of the web in which I store random musings,
+  notes, and hacks, I have learned along the way.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+twitter_username: djfordz
+github_username:  djfordz
+
+# Build settings
+markdown: kramdown
+timezone: America/Chicago
+encoding: utf-8
+highlighter: pygments
+
+defaults:
+    -
+        scope:
+            path: ""
+            type: "posts"
+        values:
+            layout: "posts"
+            author: "David Ford"
