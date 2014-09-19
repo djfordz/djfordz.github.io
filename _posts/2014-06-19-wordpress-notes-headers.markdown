@@ -12,7 +12,8 @@ from [Wordpress Codex](http://codex.wordpress.org/File_Header)
 Just a few reminders for the format of Wordpress file headers needed for Wordpress to call the proper themes and plugins.
 
 This header must go at the top of the plugin's .php file:
-~~~~
+
+{% highlight php %}
 <?php
 /*
 * Plugin Name: Name Of The Plugin
@@ -24,10 +25,11 @@ This header must go at the top of the plugin's .php file:
 * License: A "Slug" license name e.g. GPL2
 */
 ?>
-~~~~
+{% endhighlight %}
 
 ###This is for the Theme's style.css:
-~~~~
+
+{% highlight css %}
 /*
 Theme Name: Twenty Thirteen
 Theme URI: http://wordpress.org/themes/twentythirteen
@@ -42,7 +44,8 @@ Text Domain: twentythirteen
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
-~~~~
+
+{% endhighlight %}
 
 ####Codex
 

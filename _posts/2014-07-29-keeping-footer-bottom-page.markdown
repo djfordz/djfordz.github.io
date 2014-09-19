@@ -10,7 +10,7 @@ Those guys have a great tutorial and explain it in depth. All I'm going to do he
 
 ####The HTML
 
-~~~~
+{% highlight html %}
 
 <body>
 <div id="wrapper">
@@ -19,11 +19,11 @@ Those guys have a great tutorial and explain it in depth. All I'm going to do he
 <div id="footer">
 </body>
 
-~~~~
+{% endhighlight %}
 
 ####The CSS
 
-~~~~
+{% highlight css %}
 
 html, body {
     margin:0;
@@ -51,5 +51,5 @@ html, body {
     background:#ee5;
     }
 
-~~~~
+{% endhighlight %}
 
