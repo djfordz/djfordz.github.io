@@ -11,12 +11,14 @@ Those guys have a great tutorial and explain it in depth. All I'm going to do he
 ####The HTML
 
 ~~~~
+
 <body>
 <div id="wrapper">
 <div id="header">
 <div id="content">
 <div id="footer">
 </body>
+
 ~~~~
 
 ####The CSS
