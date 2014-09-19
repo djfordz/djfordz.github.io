@@ -22,6 +22,7 @@ Those guys have a great tutorial and explain it in depth. All I'm going to do he
 ####The CSS
 
 ~~~~
+
 html, body {
     margin:0;
     padding:0;
@@ -48,11 +49,16 @@ html, body {
     background:#ee5;
     }
 
+~~~~
+
 and for older IE browsers--a conditional statement
+
+~~~~
 
 <!--[if lt IE 7]></p>
 <style type="text&#47;css">
  #wrapper { height:100%; }<br />
  <&#47;style><br />
  <![endif]-->
+
  ~~~~
