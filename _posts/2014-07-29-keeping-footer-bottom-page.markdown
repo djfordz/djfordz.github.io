@@ -53,14 +53,3 @@ html, body {
 
 ~~~~
 
-and for older IE browsers--a conditional statement
-
-~~~~
-
-<!--[if lt IE 7]></p>
-<style type="text&#47;css">
- #wrapper { height:100%; }<br />
- <&#47;style><br />
- <![endif]-->
-
- ~~~~
