@@ -2,6 +2,7 @@
 layout: post
 title: The Knowledge Exchange
 author: David Ford
+categories: markdown
 ---
 ##The Knowledge Exchange
 I have started this site to showcase my projects, keep my notes in order, explain different things I have learned, and start a collection of answers.  More for my aging brain than anything else, however hopefully these resources may become helpful to others as well.
