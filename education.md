@@ -55,4 +55,6 @@ permalink: /education/
     Withdrawal Date: June 5, 2004
 
 ####[United States Marine Corps](http://ebenefits.va.gov)
-    Leadership Courses by 
+    Primary Leadership Courses by Correspondence
+    UH1-N/AW-1W Helicopter Airframe Mechanic Specialization
+
