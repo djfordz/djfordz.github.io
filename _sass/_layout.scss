@@ -128,7 +128,16 @@
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
-
+.scrollup {
+    background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
+    bottom: 20px;
+    display: none;
+    height: 40px;
+    position: fixed;
+    right: 20px;
+    text-indent: -9999px;
+    width: 40px;
+}
 .footer-col {
     float: left;
     margin-bottom: $spacing-unit / 2;
@@ -286,13 +295,4 @@
     float: left;
     display: inline-block;
 }
-.scrollup {
-    background: url("../img/icon_gototop.png") no-repeat scroll 0 0 transparent;
-    bottom: 20px;
-    display: none;
-    height: 40px;
-    position: fixed;
-    right: 20px;
-    text-indent: -9999px;
-    width: 40px;
-}
+
