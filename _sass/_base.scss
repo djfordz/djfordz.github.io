@@ -73,8 +73,18 @@ li {
          margin-bottom: 0;
     }
 }
-
-
+/**
+* Iframes
+**/
+iframe {
+    width: 90%;
+    height: 300px;
+    margin-bottom: 18px;
+}
+hr {
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
 
 /**
  * Headings
