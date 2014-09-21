@@ -295,7 +295,7 @@
 }
 .content {
     display: inline-block;
-    width: 65%;
+    width: 60%;
     margin: 10px;
     padding: 8px;
 }
@@ -304,5 +304,10 @@
     height: auto;
     float: left;
     display: inline-block;
+}
+.img-holder img {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
 }
 
