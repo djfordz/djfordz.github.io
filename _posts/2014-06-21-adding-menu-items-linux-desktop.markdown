@@ -27,25 +27,19 @@ Categories=Education;Languages;Java;      # Describes the categories in which th
 ~~~~
 
 for good measure, here is a line-by-line breakdown,copied from [GnomeDevelopers](https://developer.gnome.org/integration-guide/stable/desktop-files.html.en)
+
 ~~~~
+
 [Desktop Entry]
-The first line of every desktop file and the section header to identify the block of key value pairs associated with the desktop. Necessary for the desktop to recognize the file correctly.
 Type=Application
-Tells the desktop that this desktop file pertains to an application. Other valid values for this key are Link and Directory.
 Encoding=UTF-8
-Describes the encoding of the entries in this desktop file.
 Name=Sample Application Name
-Names of your application for the main menu and any launchers.
 Comment=A sample application
-Describes the application. Used as a tooltip.
 Exec=application
-The command that starts this application from a shell. It can have arguments.
 Icon=application.png
-The icon name associated with this application.
 Terminal=false
-Describes whether application should run in a terminal.
 Categories=Education;Accessories;Office;Internet;
-The submenu where the application will reside under in the menu.
+
 ~~~~
 
 So now you know...and I have something I can refer back to if I ever forget again....
