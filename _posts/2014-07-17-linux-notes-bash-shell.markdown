@@ -8,7 +8,8 @@ Starting this thread off is an important one to remove duplicate entries in the 
 
 {% highlight bash %}
 
-export PATH="`echo "$PATH" |&#47;bin&#47;awk 'BEGIN{RS=":";}{sub(sprintf("%c$",10),"");if(A[$0]){}else{A[$0]=1;printf(((NR==1)?"":":")$0)}}'`";
+export PATH="`echo "$PATH" |/bin/awk 'BEGIN{RS=":";}{sub(sprintf("%c$",10),"");if(A[$0]){}else{A[$0]=1;printf(((NR==1)?"":":")$0)}}'`";
+
 
 {% endhighlight %}
 
