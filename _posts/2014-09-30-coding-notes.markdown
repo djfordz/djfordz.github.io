@@ -20,3 +20,40 @@ Sum is greater than 9 so add digits again
 3 is equal to {3 or 6 or 9}
 Therefore original number 123456 is divisible by 3
 ~~~~
+
+A few functions for working with bitwise operators and using bit manipulation methods in C that I really like :)
+
+~~~~~
+#include <stdio>
+
+// add arbitrary numbers through bit manipulation.
+int bitAdd(int x, int y)
+{
+    if (y == 0)
+        return x;
+    else
+        return bitAdd( x ^ y, (x & y) << 1);
+}
+
+// multiply arbitrary numbers using bit manipulation.
+int bitMultiply( int x, int n)
+{
+     // Initialize variables for bitwise operations.
+    int result = 0;
+
+    while(n != 0)
+    {
+        if(n & 01)
+        {
+            result = bitAdd(result, x);
+        }
+
+        x <<= 1;
+
+        n >>= 1;
+    }
+
+    return result;
+}
+
+~~~~~
