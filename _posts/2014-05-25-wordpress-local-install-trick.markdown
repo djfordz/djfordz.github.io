@@ -2,11 +2,11 @@
 layout: post
 status: publish
 published: true
-title: Coding Notes
+title: Trick to enable internet access for local Wordpress install
 author: David Ford
 categories: notes, coding
 ---
-##The beginning of my Coding Notes--Sort of like Google Keep but not... >>
+##The beginning of my Wordpress notes... >>
 
 ###Coding Notes
 So first things first-- After setting up a local server to bust out my bad a** web apps and Wordpress templates...turns out when attempting to download plugins and templates from the interwebs an FTP Credentials page pops up and will not allow me to finish stealing all my stuff off the interwebs...thus I found the solution and am adding it as my first very important note:
