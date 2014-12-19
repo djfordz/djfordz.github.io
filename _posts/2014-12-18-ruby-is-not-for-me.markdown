@@ -1,8 +1,8 @@
 ---
-layout post
-title Ruby; the Spanish of the Programming World
-author David Ford
-categories programming, development
+layout: post
+title: Ruby; the Spanish of the Programming World
+author: David Ford
+categories: programming, development
 ---
 
 ##Ruby--Not My Style
