@@ -1,4 +1,5 @@
 ---
+layout: post
 title: CSS Hacks
 Author: David Ford
 Categories: Web Design, Notes
@@ -9,8 +10,8 @@ Categories: Web Design, Notes
 Here are some hacks that I always end up needing, yet forgetting where I found them...then spend oodles of time Googling for fixes...So to start things off...this is a hack which allows for a semi-transparent object, such as a div, nav, section, article....more to come!
 
 and here is the gist [CSS Hack-Semi-transparent textbox](https://gist.github.com/9b8a4334b3dfb787de27 "textbox");
-{% highlight css %}
 
+`````
 #front_display {
     width: 450px;
     height: auto;
@@ -25,5 +26,4 @@ and here is the gist [CSS Hack-Semi-transparent textbox](https://gist.github.com
 #front_display:nth-child(n) {
     filter: none;
 }
-
-{% endhighlight &}
+`````
