@@ -1,0 +1,29 @@
+---
+title: CSS Hacks
+Author: David Ford
+Categories: Web Design, Notes
+---
+
+## For the Love of...CSS?
+
+Here are some hacks that I always end up needing, yet forgetting where I found them...then spend oodles of time Googling for fixes...So to start things off...this is a hack which allows for a semi-transparent object, such as a div, nav, section, article....more to come!
+
+and here is the gist [CSS Hack-Semi-transparent textbox](https://gist.github.com/9b8a4334b3dfb787de27 "textbox");
+{% highlight css %}
+
+#front_display {
+    width: 450px;
+    height: auto;
+    padding: 25px;
+    background:rgb(0,0,0);  
+    background: transparent\9;  
+    background:rgba(0,0,0,0.4);  
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#66000000,endColorstr=#66000000);  
+    zoom: 1;  
+    border-radius: 10px;
+}
+#front_display:nth-child(n) {
+    filter: none;
+}
+
+{% endhighlight &}
