@@ -1,29 +1,21 @@
 ---
 layout: post
-title: Notes for Coding (Learned from CS50)
+title: Bitwise tidbits (addition and multiplication)
 author: David Ford
+categories: C, Programming, Bitwise
 ---
 
-##Notes
+##Bitwise Operations are pretty awesome....seriously...
 
-1. Here is a nice little mathematical algorithm to find if something is divisible by 3 without using modulo, division, or multiplication:
+I am just beginning my foray into learning bitwise operations, and I must confess, I really enjoy manipulating at this most basic level. Not only is manipulating data at the bit level fun, exciting, intriguing, and illuminating, it is also super efficient.
 
->An integer is divisible if the sum of its digits is divisible by 3. So you could keep adding the digits of a number together until you get a number less than 10. If that sum number is 3, 6 or 9 then your original number is divisible by 3.
+###What are bitwise operations?
 
-For large integers, this method is likely to get you a result quicker than just iteratively subtracting 3.
+Bitwise operations in languages such as C allow a user to manipulate data bit by bit.  Thus, since we are manipulating data at the lowest of low levels, a decent knowledge of binary is a must, along with a rather adept expertise in adding, subtracting, multiplying, and dividing in binary as well.  However, once you get the hang of it, it becomes an extremely powerful asset to one's programming prowess.  It allows a developer access to the most basic data structure willing the one's and zero's to do his bidding.  It is awesome...
 
-~~~~
-123456
-Sum of digits is 21
-Sum is greater than 9 so add digits again
-2+1 = 3
-3 is equal to {3 or 6 or 9}
-Therefore original number 123456 is divisible by 3
-~~~~
+####Here are a few methods to add and multiply using only bitwise operations
 
-A few functions for working with bitwise operators and using bit manipulation methods in C that I really like :)
-
-~~~~~
+````C
 #include <stdio>
 
 // add arbitrary numbers through bit manipulation.
@@ -56,4 +48,4 @@ int bitMultiply( int x, int n)
     return result;
 }
 
-~~~~~
+````
