@@ -15,8 +15,9 @@ Bitwise operations in languages such as C allow a user to manipulate data bit by
 
 ####Here are a few methods to add and multiply using only bitwise operations
 
-````
-#include <stdio>
+~~~~
+
+#include <stdio.h>
 
 // add arbitrary numbers through bit manipulation.
 int bitAdd(int x, int y)
@@ -48,4 +49,4 @@ int bitMultiply( int x, int n)
     return result;
 }
 
-````
+~~~~
