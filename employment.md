@@ -3,19 +3,13 @@ layout: default
 title: Employment
 ---
 
-###Date: 2013-Present
+###Date: 12/2014 - Present
 
-##Mobile Computer Repair Specialist
+##Search Analyst at Leapforce Technical
 
-    Dependable, knowledgeable, and experienced computer repair technician
-        -Professional and Courteous Customer Service
-        -Virus Removal
-        -Network Troubleshooting, Repair, and Installation
-        -Hardware Replacement
-        -Laptop and Tablet Screen Repair (Removal and Replacement)
-        -Hard Drive Failure Data Recovery
-        -Consultation and Training on Software Solutions
-        -Website Recommendations, Updates, and Solutions
+````
+Track, analyze, and project search optimization techniques, to include detailed page analysis, relevance to search criteria, index locality, and project current trends in search techniques.
+````
 
 ###Date: 2013 - Present
 

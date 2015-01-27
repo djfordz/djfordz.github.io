@@ -13,10 +13,10 @@ permalink: /education/
 
 ####[HarvardX--Introduction to Computer Science (CS50)](http://edx.org)
     edX.org--Certificate of Achievement
-        Course Start: September 1, 2014
-        Course End: December 1, 2014
+        Course Start: January 1, 2015
+        Projected Finish: March 1, 2015
 
-####[LouvainX--Paradigms of Computer Programming - Fundamentals (Louv1.1x)](http://edx.org)
+####[MIT6.00x--Introduction to Computer Science](http://edx.org)
     edX.org--Certificate of Achievement
         Course Start: September 22, 2014
         Course End:  December 22, 2014
