@@ -38,19 +38,19 @@ then we need to copy the .h file to the include directory
 
 lastly, for good measure, lets change the permissions to ensure we can use these files.
 
-`sudo chmod 0755 /usr/include/cs50.h`
+`sudo chmod 0644 /usr/include/cs50.h`
 
 or
 
-`sudo chmod 0755 /usr/local/include/cs50.h`
+`sudo chmod 0644 /usr/local/include/cs50.h`
 
 and
 
-`sudo chmod 0755 /usr/lib/libcs50.so`
+`sudo chmod 0644 /usr/lib/libcs50.so`
 
 or
 
-`sudo chmod 0755 /usr/local/lib/libcs50.so`
+`sudo chmod 0644 /usr/local/lib/libcs50.so`
 
 depending on where you copied the files to.
 
