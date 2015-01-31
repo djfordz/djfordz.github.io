@@ -10,7 +10,13 @@ When I first started Harvard's CS50 course, I was using a very old system which 
 
 ####Downloading, compiling, and installing the CS50 Library
 
-First, we need to get a copy of the library files which include cd50.h and cs50.c, luckily they have a github repository setup with the required files.  [CS50 Library](https://github.com/cs50/library50-c "CS50 Library").  As you will notice in the repo, there are already the required system files to create a deb package for installation on Ubuntu or Debian based Linux Distros and an rpm directory with the necessary files to create an rpm package for Fedora distros and the like.  This, if you know how to create these packages then you can do that and install them just like any other package from your package manager.  Barring this knowledge, I am going to walk through the manual way of installing the library.  First either download the zip package or clone the library to your local system using git.  Extract the files in any directory you like, for this example I extracted to ~/cs50library.  next compile the source code using either clang or gcc 
+First, we need to get a copy of the library files which include cd50.h and cs50.c, luckily they have a github repository setup with the required files.  [CS50 Library](https://github.com/cs50/library50-c "CS50 Library").  
+
+Or you can use wget to retrieve the library.
+
+`wget http://mirror.cs50.net/library50/c/library50-c-5.zip`
+
+Extract the files in any directory you like, for this example I extracted to ~/cs50library.  next compile the source code using either clang or gcc 
 
 `gcc -c -Wall -Werror -fpic cs50.c` 
 
@@ -18,15 +24,66 @@ this will create a new file with the ibject code or .o extension, which in turn 
 
 `gcc -shared -o libcs50.so cs50.o`
 
-After this you should see a libcs50.so file in your workind directory, copy this file to your /usr/lib dir, you will need root priviledges for this.
+After this you should see a libcs50.so file in your working directory, we then need to copy this file to your /usr/lib dir, you will need root priviledges for this.
 
 `sudo cp libcs50.so /usr/lib/`
 
+on some systems, like Ubuntu we will need to install to the usr/local/include dir.
+
+`sudo cp libcs50.so /usr/local/include`
+
 then we need to copy the .h file to the include directory
 
-`sudo cp cs50.h /usr/include/` //note sometimes this directory will be /usr/local/include/
+`sudo cp cs50.h /usr/include/` //note sometimes this directory will be /usr/local/include/ depending on the system.
+
+lastly, for good measure, lets change the permissions to ensure we can use these files.
+
+`sudo chmod 0755 /usr/include/cs50.h`
+
+or
+
+`sudo chmod 0755 /usr/local/include/cs50.h`
+
+and
+
+`sudo chmod 0755 /usr/lib/libcs50.so`
+
+or
+
+`sudo chmod 0755 /usr/local/lib/libcs50.so`
+
+depending on where you copied the files to.
 
 and that is it.  You should now be able to use the cs50 library.
+
+####Quick and easy for Ubuntu and Debian
+
+become root
+`su`
+
+install gcc if not already installed.
+
+`apt-get install gcc`
+
+Download and install library library.
+
+~~~~
+wget http://mirror.cs50.net/library50/c/library50-c-5.zip
+unzip library50-c-5.zip
+rm -f library50-c-5.zip
+cd library50-c-5
+gcc -c -ggdb -std=c99 cs50.c -o cs50.o
+ar rcs libcs50.a cs50.o
+chmod 0644 cs50.h libcs50.a
+mkdir -p /usr/local/include
+chmod 0755 /usr/local/include
+mv -f cs50.h /usr/local/include
+mkdir -p /usr/local/lib
+chmod 0755 /usr/local/lib
+mv -f libcs50.a /usr/local/lib
+cd ..
+rm -rf library50-c-5
+~~~~
 
 ####Configuring make to use clang
 
