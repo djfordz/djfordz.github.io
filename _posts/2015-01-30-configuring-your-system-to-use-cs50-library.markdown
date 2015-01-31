@@ -91,8 +91,11 @@ rm -rf library50-c-5
 
 After installing the library, we will need some way of configuring make to use clang with the proper flags.  There are many wayd of doing this, however, I will show the easiest.  creating an alias in your .bashrc file.  Open your .bashrc file in an editor, .bashrc can be found at the root of your home directory ~/.bashrc, it is a hidden file, so to see it you will have to use `ls -a ~/`.  and simply create an alias.  I used make50 as the command to make to differentiate my system make and cs50 make
 
-`# make for CS50
+~~~~
+# make for CS50
+
 alias make50='make CC=clang CFLAGS="-ggdb3 -O0 -std=c99 -Wall -Werror" LDLIBS="-lcs50 -lm"'`
+~~~~
 
 now source your bashrc file or re-login to your system
 
