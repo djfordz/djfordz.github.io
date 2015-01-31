@@ -20,11 +20,11 @@ this will create a new file with the ibject code or .o extension, which in turn 
 
 After this you should see a libcs50.so file in your workind directory, copy this file to your /usr/lib dir, you will need root priviledges for this.
 
-'sudo cp libcs50.so /usr/lib/'
+`sudo cp libcs50.so /usr/lib/`
 
 then we need to copy the .h file to the include directory
 
-'sudo cp cs50.h /usr/include/' //note sometimes this directory will be /usr/local/include/
+`sudo cp cs50.h /usr/include/` //note sometimes this directory will be /usr/local/include/
 
 and that is it.  You should now be able to use the cs50 library.
 
