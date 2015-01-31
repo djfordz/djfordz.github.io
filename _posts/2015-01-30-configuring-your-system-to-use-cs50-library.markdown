@@ -12,7 +12,7 @@ When I first started Harvard's CS50 course, I was using a very old system which 
 
 * *credit sources Thanks to Luigi Morelli and Kareem Mesbah for the article at [CS50 Stack Exchange](http://cs50.stackexchange.com/questions/1045/how-to-compile-the-cs50-library-on-another-linux-distro)*
 
-First, we need to get a copy of the library files which include cd50.h and cs50.c, luckily they have a github repository setup with the required files.  [CS50 Library](https://github.com/cs50/library50-c "CS50 Library").  
+First, we need to get a copy of the library files which include cs50.h and cs50.c, luckily they have a github repository setup with the required files.  [CS50 Library](https://github.com/cs50/library50-c "CS50 Library").  
 
 Or you can use wget to retrieve the library.
 
