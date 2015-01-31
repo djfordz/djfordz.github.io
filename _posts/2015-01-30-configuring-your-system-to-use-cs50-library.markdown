@@ -93,7 +93,6 @@ After installing the library, we will need some way of configuring make to use c
 
 ~~~~
 # make for CS50
-
 alias make50='make CC=clang CFLAGS="-ggdb3 -O0 -std=c99 -Wall -Werror" LDLIBS="-lcs50 -lm"'`
 ~~~~
 
