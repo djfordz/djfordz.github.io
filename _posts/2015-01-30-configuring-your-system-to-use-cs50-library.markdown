@@ -8,7 +8,7 @@ Category: CS50, Tutorials, Programming
 
 When I first started Harvard's CS50 course, I was using a very old system which didn't have support for hardware virtualization, which in turn caused any virtual environment to be sluggish and unresponsive.  So much so, that getting any type of work on it was near impossible.  This dilemma is what led me to install and configure my base linux system to mimic the appliance when compiling C code, entailing installing the CS50 library, configuring make to use clang with the proper flags, and also configuring check50 to ensure my programs would have passing marks when submitted.  In this article, I will be discussing how I configured my base system to mimic features of the CS50 Appliance.
 
-####Downloading, compiling, and installing the CS50 Library
+##Downloading, compiling, and installing the CS50 Library
 
 _credit sources_ [CS50 Stack Exchange](http://cs50.stackexchange.com/questions/1045/how-to-compile-the-cs50-library-on-another-linux-distro)
 
@@ -87,7 +87,7 @@ cd ..
 rm -rf library50-c-5
 ~~~~
 
-####Configuring make to use clang
+##Configuring make to use clang
 
 After installing the library, we will need some way of configuring make to use clang with the proper flags.  There are many wayd of doing this, however, I will show the easiest.  creating an alias in your .bashrc file.  Open your .bashrc file in an editor, .bashrc can be found at the root of your home directory ~/.bashrc, it is a hidden file, so to see it you will have to use `ls -a ~/`.  and simply create an alias.  I used make50 as the command to make to differentiate my system make and cs50 make
 
