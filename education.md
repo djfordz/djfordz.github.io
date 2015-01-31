@@ -1,12 +1,12 @@
 ---
 layout: page
 title: Education
+permalink: /education/
 ---
 
 ###Currently Enrolled Curriculum _as of: {{ site.time }}_
 
 ####[Colorado Technical University--Bachelor of Science in Information Technology (BSIT)](http://www.coloradotech.edu)
-
 
     Software Application Programming Specialization
         GPA: 3.8 Cumulative
