@@ -36,21 +36,21 @@ then we need to copy the .h file to the include directory
 
 `sudo cp cs50.h /usr/include/` //note sometimes this directory will be /usr/local/include/ depending on the system.
 
-lastly, for good measure, lets change the permissions to ensure we can use these files.
+lastly, for good measure, lets change the owner and permissions to ensure we can use these files.
 
-`sudo chmod 0644 /usr/include/cs50.h`
+`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/include/cs50.h`
 
 or
 
-`sudo chmod 0644 /usr/local/include/cs50.h`
+`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/local/include/cs50.h`
 
 and
 
-`sudo chmod 0644 /usr/lib/libcs50.so`
+`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/lib/libcs50.so`
 
 or
 
-`sudo chmod 0644 /usr/local/lib/libcs50.so`
+`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/local/lib/libcs50.so`
 
 depending on where you copied the files to.
 
