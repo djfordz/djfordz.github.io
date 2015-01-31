@@ -10,17 +10,19 @@ When I first started Harvard's CS50 course, I was using a very old system which 
 
 ####Downloading, compiling, and installing the CS50 Library
 
+_credit sources_ [CS50 Stack Exchange](http://cs50.stackexchange.com/questions/1045/how-to-compile-the-cs50-library-on-another-linux-distro)
+
 First, we need to get a copy of the library files which include cd50.h and cs50.c, luckily they have a github repository setup with the required files.  [CS50 Library](https://github.com/cs50/library50-c "CS50 Library").  
 
 Or you can use wget to retrieve the library.
 
 `wget http://mirror.cs50.net/library50/c/library50-c-5.zip`
 
-Extract the files in any directory you like, for this example I extracted to ~/cs50library.  next compile the source code using either clang or gcc 
+Extract the files in any directory you like, for this example I extracted to `~/cs50library` next compile the source code using either clang or gcc 
 
 `gcc -c -Wall -Werror -fpic cs50.c` 
 
-this will create a new file with the ibject code or .o extension, which in turn we will need to compile to a shared library, which we will call libcs50.so
+this will create a new file with the object code or a file with a .o extension, we need in the next step, which in turn we will need to compile to a shared library, which we will call libcs50.so
 
 `gcc -shared -o libcs50.so cs50.o`
 
@@ -38,19 +40,19 @@ then we need to copy the .h file to the include directory
 
 lastly, for good measure, lets change the owner and permissions to ensure we can use these files.
 
-`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/include/cs50.h`
+`sudo chown root:root /usr/include/cs50.h && sudo chmod 0644 /usr/include/cs50.h`
 
 or
 
-`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/local/include/cs50.h`
+`sudo chown root:root /usr/include/cs50.h && sudo chmod 0644 /usr/local/include/cs50.h`
 
 and
 
-`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/lib/libcs50.so`
+`sudo chown root:root /usr/include/cs50.h && sudo chmod 0644 /usr/lib/libcs50.so`
 
 or
 
-`sudo chown root:root /usr/include/cd50.h && sudo chmod 0644 /usr/local/lib/libcs50.so`
+`sudo chown root:root /usr/include/cs50.h && sudo chmod 0644 /usr/local/lib/libcs50.so`
 
 depending on where you copied the files to.
 
