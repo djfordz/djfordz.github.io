@@ -22,8 +22,10 @@
 
 <!-- facebook opengraph -->
 
-<meta name="og:site" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="og:url" content="http://dfwnerd.com">
-<meta name="og:description" content="{{ site.description }}">
-
+<meta property="og:site_name" content="Ninja's and Pirates, Argghh!">
+<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<meta property="og:title" content="{% if page.title %} {{page.title}}{% else %}{{site.title}}{% endif %}">
+<meta property="og:description" content="{{ site.description }}">
+<meta property="og:image" content="/img/P8gNpGs.png">
+<meta property="og:type" content="blog">
 </head>
