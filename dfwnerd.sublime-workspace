@@ -1,0 +1,255 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nJekyll:\n------\n\n  Thanks for installing sublime-jekyll!\n  \n  This package should help maintaining Jekyll sites and posts easier by providing access to new post/draft shortcuts, key template tags and filters, as well as common completions and a current date/datetime command (for dating posts).\n  \n  \n  After installing this package, make sure you configure your User settings file. The most important piece of this is to set your `posts_path` and `drafts_path` locations. This can also be set on a per-project basis later if you have multiple Jekyll sites you wish to manage.\n  \n  {\n  \n      // This should point to your \"_posts\" directory.\n      // NOTE: This should be an absolute path. Also, the path should\n      // match your system convention. For example, Windows machines should\n      // have a path similar to \"C:\\\\Users\\\\username\\\\site\\\\_posts\".\n      // *nix systems should have a path similar to \"/Users/username/site/_posts\".\n      \"posts_path\": \"\",\n  \n      // This should point to your \"_drafts\" directory.\n      // NOTE: This should be an absolute path. Also, the path should\n      // match your system convention. For example, Windows machines should\n      // have a path similar to \"C:\\\\Users\\\\username\\\\site\\\\_drafts\".\n      // *nix systems should have a path similar to \"/Users/username/site/_drafts\".\n      \"drafts_path\": \"\",\n  \n  }\n  \n  ```\n  \n  For per-project settings, make sure you add your Jekyll settings correctly to your project settings file:\n  \n  {\n      \"folders\":\n      [\n          {\n              \"follow_symlinks\": true,\n              \"path\": \"/Users/username/site/\"\n          }\n      ],\n  \n      \"settings\":\n      {\n          \"Jekyll\":\n          {\n              \"posts_path\": \"/Users/username/site/_posts\",\n              \"drafts_path\": \"/Users/username/site/_drafts\",\n          }\n      }\n  }\n  \n  \n  If you have any questions or issues, please visit the homepage and log an issue: http://23maverick23.github.io/sublime-jekyll/\n  ",
+			"settings":
+			{
+				"buffer_size": 2017,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"cla",
+				"Clang Format: Set Path"
+			],
+			[
+				"clang",
+				"Clang Format: Select Style"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Channel"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 475.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/home/djfordz/projects/dfwnerd"
+	],
+	"file_history":
+	[
+		"/home/djfordz/Dropbox/pset5/dictionary.c",
+		"/home/djfordz/projects/dfwnerd/_config.yml",
+		"/home/djfordz/.config/sublime-text-3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/SublimeLinter.sublime-settings",
+		"/home/djfordz/.bashrc",
+		"/home/djfordz/.config/sublime-text-3/Packages/Jekyll/Jekyll.sublime-settings",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/Jekyll.sublime-settings",
+		"/home/djfordz/.bash_profile",
+		"/home/djfordz/.config/sublime-text-3/Packages/User/Preferences.sublime-settings",
+		"/usr/share/applications/sublime.desktop"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2017,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1875,
+								1875
+							]
+						],
+						"settings":
+						{
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 497.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.CSS Extended Completions":
+	{
+		"height": 0.0
+	},
+	"output.CppYCM.2":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "dfwnerd.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
