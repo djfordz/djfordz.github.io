@@ -31,6 +31,12 @@ core-toolbar a {
         color: lighten(white, 10%) !important;
     }
 }
+.content {
+    padding: 20px;
+}
+core-drawer-panel:not([narrow]) #navicon {
+    display: none;
+}
 .site-header {
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $brand-color;
@@ -59,19 +65,18 @@ core-toolbar a {
     }
 }
 .site-subtitle {
+    width: 200px;
     font-size: 1.2em;
-    margin-left: 20px;
+    margin-left: 2em;
     margin-bottom: 0;
     float: left;
     letter-spacing: -1px;
     color: $header-text-color;
     display: inline-block;
-    padding: 0 2em 0 4em;
 
     @include media-query($on-laptop) {
         font-size: 0.7em;
         margin-left: 15px;
-        padding: 0 1em 0 1em;
     }
 
     @include media-query($on-palm) {

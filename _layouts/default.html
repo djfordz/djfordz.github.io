@@ -15,14 +15,16 @@
     {% include footer.html %}
 
     <script>
-      var tabs = document.querySelector('paper-tabs');
-      var content = document.getElementById('page-content');
+     document.addEventListener('polymer-ready', function() {
+        var navicon = document.getElementById('navicon');
 
-      tabs.addEventListener('core-select', function() {
-          console.log('selected:' + tabs.selected)
+        var drawerPanel = document.getElementById('drawerPanel');
+          navicon.addEventListener('click', function() {
+          drawerPanel.togglePanel();
+        });
       });
     </script>
-</polymer-element>
+
   </body>
 
 </html>

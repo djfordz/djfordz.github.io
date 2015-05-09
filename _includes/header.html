@@ -1,21 +1,27 @@
-<core-header-panel>
+<core-drawer-panel id="drawerPanel">
+
+  <core-header-panel drawer flex>
+    <core-toolbar id="navheader">
+      <span flex class="site-title"><a href="{{ site.baseurl }}">{{ site.title }}</a></span>
+    </core-toolbar>
+
+    <core-menu>
+      {% for page in site.pages %}
+        {% if page.title %}
+          <core-item label="{{ page.title }}"><a href="{{ page.url }}"></a></core-item>
+        {% endif %}
+      {% endfor %}
+    </core-menu>
+  </core-header-panel>
+
+  <core-header-panel main class="waterfall">
+    <core-toolbar id="mainheader">
+        <paper-icon-button id="navicon" icon="menu"></paper-icon-button>
+        <span flex>{{ page.title }}</span>
+    </core-toolbar>
+  </core-header-panel>
+
+</core-drawer-panel>
 
 
-  <core-toolbar>
-   
-    <span flex class="site-subtitle">{{ site.subtitle }}</span>
-    <paper-icon-button icon="menu"></paper-icon-button>
-    <paper-tabs id="tabs" class="site-nav" selected="{{ selected }}" link self end>
-       <paper-tab id="{{ site.title }}" name="{{ site.title }}" class="site-title"><a href="{{ site.baseurl }}" horizontal center center layout>{{ site.title }}</a></paper-tab>
-        {% for page in site.pages %}
-          {% if page.title %}
-            <paper-tab id="{{ page.title }}" name="{{ page.title }}"><a href="{{ page.url }}" horizontal center center layout>{{ page.title }}</a></paper-tab>
-          {% endif %}
-        {% endfor %}
-    <paper-icon-button icon="refresh"></paper-icon-button>
-    <paper-icon-button icon="more-vert"></paper-icon-button>
-
-  </core-toolbar>
-
-
-</core-header-panel>
+ 

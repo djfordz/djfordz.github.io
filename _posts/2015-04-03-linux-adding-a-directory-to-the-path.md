@@ -1,10 +1,6 @@
 ---
 layout: post
 title: Linux: adding a directory to the path
-categories: [Linux]
-tags: [path, directory, environment, variable]
-published: True
-
 ---
 
 ###Adding path variables
