@@ -19,16 +19,16 @@ core-toolbar {
     user-select: none;
     text-transform: uppercase;
 }
-#tabs a {
-    color: white;
+core-toolbar a {
+    color: white !important;
     text-decoration: none;
 
     &:visited {
-        color: darken(white, 10%);
+        color: darken(white, 10%) !important;
     }
 
     &:hover {
-        color: lighten(white, 10%);
+        color: lighten(white, 10%) !important;
     }
 }
 .site-header {
