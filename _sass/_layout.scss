@@ -43,7 +43,6 @@ core-toolbar a {
 .site-title {
     font-family: $title-font-family;
     font-size: 2.2em;
-    line-height: 56px;
     color: $header-text-color;
 
     &,
@@ -64,15 +63,15 @@ core-toolbar a {
     margin-left: 20px;
     margin-bottom: 0;
     float: left;
-    line-height: 56px;
     letter-spacing: -1px;
     color: $header-text-color;
     display: inline-block;
     padding: 0 2em 0 4em;
 
-    @include media-query($on-laptop) {
+    @include media-query(max-width: 800px) {
         font-size: 0.7em;
         margin-left: 15px;
+        padding: 0 1em 0 1em;
     }
 
     @include media-query($on-palm) {
