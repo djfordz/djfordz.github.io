@@ -11,14 +11,25 @@ core-toolbar {
     background: $header-color;
     color: white;
 }
-#tabs {
+ #tabs {
     width: 60%;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
     text-transform: uppercase;
+}
+#tabs a {
     color: white;
+    text-decoration: none;
+
+    &:visited {
+        color: darken(white, 10%);
+    }
+
+    &:hover {
+        color: lighten(white, 10%);
+    }
 }
 .site-header {
     border-top: 5px solid $brand-color;
