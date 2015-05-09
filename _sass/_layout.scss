@@ -4,10 +4,16 @@
  core-header-panel {
     height: 100%;
     -webkit-overflow-scrolling: touch;
+    position: relative;
+    display: block;
+    z-index: 1;
 }
 core-toolbar {
     width: 100%;
     color: white;
+    position: relative;
+    display: block;
+    z-index: 1;
 }
  #tabs {
     width: 60%;
@@ -36,6 +42,9 @@ core-toolbar a {
 }
 .content {
     padding: 20px;
+    display: block;
+    position: relative;
+    z-index: 100;
 }
 .site-header {
     border-top: 5px solid $brand-color;
@@ -74,7 +83,7 @@ core-toolbar a {
     display: inline-block;
 
     @include media-query($on-laptop) {
-        font-size: 0.7em;
+        font-size: 1em;
         margin-left: 15px;
     }
 
@@ -244,6 +253,9 @@ core-toolbar a {
 #page-content {
     margin-top: 4em;
     padding: $spacing-unit 0;
+    display: block;
+    position: relative;
+    z-index: 100;
 }
 
 .page-heading {
