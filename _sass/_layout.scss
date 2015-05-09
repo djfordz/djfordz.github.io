@@ -4,11 +4,17 @@
  core-header-panel {
     height: 100px;
     -webkit-overflow-scrolling: touch;
+    position: relative;
+    display: block;
+    z-index: 10;
 }
 core-toolbar {
     width: 100%;
     background: $header-color;
     color: white;
+    position: relative;
+    display: block;
+    z-index: 10;
 }
  #tabs {
     width: 60%;
@@ -29,6 +35,11 @@ core-toolbar a {
     &:hover {
         color: lighten(white, 10%) !important;
     }
+}
+.container {
+    display: block;
+    position: relative;
+    z-index: 12;
 }
 .content {
     padding: 20px;
