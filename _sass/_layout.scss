@@ -18,6 +18,7 @@ core-toolbar {
     -ms-user-select: none;
     user-select: none;
     text-transform: uppercase;
+    color: white;
 }
 .site-header {
     border-top: 5px solid $brand-color;
@@ -316,6 +317,7 @@ core-toolbar {
     display: inline-block;
 }
 .img-holder img {
+    width: 150px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
