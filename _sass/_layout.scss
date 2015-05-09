@@ -19,14 +19,20 @@ core-menu, core-item {
     position: relative;
     display: block;
     z-index: 1;
+    width: 60%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: uppercase;
 }
 
  #tabs {
     width: 60%;
-    -webkit-user-select: touch;
-    -moz-user-select: touch;
-    -ms-user-select: touch;
-    user-select: touch;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
     text-transform: uppercase;
 }
 core-toolbar a {
