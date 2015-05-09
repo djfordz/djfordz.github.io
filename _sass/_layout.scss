@@ -6,19 +6,19 @@
     -webkit-overflow-scrolling: touch;
     position: relative;
     display: block;
-    z-index: 1;
+    z-index: 999;
 }
 core-toolbar {
     width: 100%;
     color: white;
     position: relative;
     display: block;
-    z-index: 1;
+    z-index: 999;
 }
 core-menu, core-item {
     position: relative;
     display: block;
-    z-index: 1;
+    z-index: 999;
     width: 60%;
     -webkit-user-select: none;
     -moz-user-select: none;
