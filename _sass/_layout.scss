@@ -1,43 +1,22 @@
 /**
  * Site header
  */
- core-scaffold {
-    display: block;
-    position: relative;
-    z-index: -1099;
- }
+
  core-header-panel {
     height: 100%;
     -webkit-overflow-scrolling: touch;
-    position: relative;
-    display: block;
-    z-index: -999;
 }
 core-toolbar {
     width: 100%;
     color: white;
-    position: relative;
-    display: block;
-    z-index: -999;
 }
 core-menu, core-item {
-    position: relative;
-    display: block;
-    z-index: -999;
     width: 60%;
-    -webkit-user-select: all;
-    -moz-user-select: all;
-    -ms-user-select: all;
-    user-select: all;
     text-transform: uppercase;
 }
 
  #tabs {
     width: 60%;
-    -webkit-user-select: all;
-    -moz-user-select: all;
-    -ms-user-select: all;
-    user-select: all;
     text-transform: uppercase;
 }
 core-toolbar a {
@@ -51,17 +30,6 @@ core-toolbar a {
     &:hover {
         color: lighten(white, 10%) !important;
     }
-}
-.container {
-    display: block;
-    position: relative;
-    z-index: -12;
-}
-.content {
-    padding: 20px;
-    display: block;
-    position: relative;
-    z-index: -100;
 }
 .site-header {
     border-top: 5px solid $brand-color;
@@ -383,6 +351,7 @@ core-toolbar a {
     display: inline-block;
     position: relative;
     z-index: -12;
+    margin-bottom: 1em;
 }
 .img-holder img {
     width: 150px;
