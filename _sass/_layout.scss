@@ -68,7 +68,7 @@ core-toolbar a {
     display: inline-block;
     padding: 0 2em 0 4em;
 
-    @include media-query(max-width: 800px) {
+    @include media-query($on-laptop) {
         font-size: 0.7em;
         margin-left: 15px;
         padding: 0 1em 0 1em;
