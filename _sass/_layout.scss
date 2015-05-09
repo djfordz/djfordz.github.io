@@ -60,12 +60,11 @@ core-toolbar a {
         margin-left: 0.5em;
     }
     @include media-query($on-palm) {
-        font-size: 1.2em;
+        font-size: 1.0em;
         margin-left: 0;
     }
 }
 .site-subtitle {
-    width: 200px;
     font-size: 1.2em;
     margin-left: 2em;
     margin-bottom: 0;
