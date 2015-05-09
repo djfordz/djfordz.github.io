@@ -20,19 +20,19 @@ core-menu, core-item {
     display: block;
     z-index: 999;
     width: 60%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
     text-transform: uppercase;
 }
 
  #tabs {
     width: 60%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    -webkit-user-select: all;
+    -moz-user-select: all;
+    -ms-user-select: all;
+    user-select: all;
     text-transform: uppercase;
 }
 core-toolbar a {
@@ -50,13 +50,13 @@ core-toolbar a {
 .container {
     display: block;
     position: relative;
-    z-index: 12;
+    z-index: -12;
 }
 .content {
     padding: 20px;
     display: block;
     position: relative;
-    z-index: 100;
+    z-index: -100;
 }
 .site-header {
     border-top: 5px solid $brand-color;
@@ -368,17 +368,24 @@ core-toolbar a {
     width: 60%;
     margin: 10px;
     padding: 8px;
+    position: relative;
+    z-index: -10;
 }
 .img-holder {
     width: 150px;
     height: auto;
     float: left;
     display: inline-block;
+    position: relative;
+    z-index: -12;
 }
 .img-holder img {
     width: 150px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
+    display: block;
+    position: relative;
+    z-index: -15;
 }
 
