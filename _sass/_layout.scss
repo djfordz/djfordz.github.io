@@ -15,6 +15,12 @@ core-toolbar {
     display: block;
     z-index: 1;
 }
+core-menu, core-item {
+    position: relative;
+    display: block;
+    z-index: 1;
+}
+
  #tabs {
     width: 60%;
     -webkit-user-select: touch;
