@@ -4,23 +4,17 @@
  core-header-panel {
     height: 100px;
     -webkit-overflow-scrolling: touch;
-    position: relative;
-    display: block;
-    z-index: 10;
 }
 core-toolbar {
     width: 100%;
     color: white;
-    position: relative;
-    display: block;
-    z-index: 10;
 }
  #tabs {
     width: 60%;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
+    -webkit-user-select: touch;
+    -moz-user-select: touch;
+    -ms-user-select: touch;
+    user-select: touch;
     text-transform: uppercase;
 }
 core-toolbar a {
