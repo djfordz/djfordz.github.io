@@ -11,8 +11,7 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-html, body {
-    height: 100%;
+body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -98,7 +97,7 @@ a {
 
     &:hover {
         color: lighten($brand-color, 15%);
-        text-decoration: none;
+        text-decoration: underline;
     }
 }
 

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Employment
-permalink: /employment/
 ---
 
 ###Date: 12/2014 - Present

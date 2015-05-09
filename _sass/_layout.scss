@@ -1,39 +1,10 @@
 /**
  * Site header
  */
-
- core-header-panel {
-    height: 100%;
-    -webkit-overflow-scrolling: touch;
-}
-core-toolbar {
-    width: 100%;
-    color: white;
-}
-core-menu {
-    width: 60%;
-    text-transform: uppercase;
-}
-
- #tabs {
-    width: 60%;
-    text-transform: uppercase;
-}
-core-toolbar a {
-    color: white !important;
-    text-decoration: none;
-
-    &:visited {
-        color: darken(white, 10%) !important;
-    }
-
-    &:hover {
-        color: lighten(white, 10%) !important;
-    }
-}
 .site-header {
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $brand-color;
+    min-height: 56px;
     background-color: $header-color;
 
     // Positioning context for the mobile navigation icon
@@ -42,35 +13,31 @@ core-toolbar a {
 
 .site-title {
     font-family: $title-font-family;
-    font-size: 2.2em;
+    font-size: 32px;
+    line-height: 56px;
+    letter-spacing: -1px;
+    margin-bottom: 0;
+    float: left;
     color: $header-text-color;
 
     &,
     &:visited {
-        color: white;
-    }
-    @include media-query($on-laptop) {
-        font-size: 1.5em;
-        margin-left: 0.5em;
+        color: $grey-color-light;
     }
     @include media-query($on-palm) {
-        font-size: 1.0em;
+        font-size: 24px;
         margin-left: 0;
     }
 }
 .site-subtitle {
-    font-size: 1.2em;
-    margin-left: 2em;
+    font-size: 18px;
+    margin-left: 20px;
     margin-bottom: 0;
     float: left;
+    line-height: 56px;
     letter-spacing: -1px;
     color: $header-text-color;
     display: inline-block;
-
-    @include media-query($on-laptop) {
-        font-size: 1em;
-        margin-left: 15px;
-    }
 
     @include media-query($on-palm) {
         font-size: 14px;
@@ -149,23 +116,12 @@ core-toolbar a {
     padding: $spacing-unit 0;
     background-color: $header-color;
 }
-.site-footer a {
-    color: white;
-
-    &:visited {
-        color: white;
-    }
-    &:hover {
-        color: darken(white, 10%);
-    }
-}
-
 
 .footer-heading {
     font-family: $title-font-family;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
-    color: #222;
+    color: $grey-color-light;
 }
 
 .contact-list,
@@ -235,12 +191,8 @@ core-toolbar a {
 /**
  * Page content
  */
-#page-content {
-    margin-top: 4em;
+.page-content {
     padding: $spacing-unit 0;
-    display: block;
-    position: relative;
-    z-index: 100;
 }
 
 .page-heading {
@@ -324,10 +276,9 @@ core-toolbar a {
     color: $green-color;
 }
 #hello {
-    font-size: 1.6em;
+
 }
 #get-started {
-    font-size: 1.35em;
 
 }
 #objective {
@@ -341,25 +292,16 @@ core-toolbar a {
     width: 60%;
     margin: 10px;
     padding: 8px;
-    position: relative;
-    z-index: -10;
 }
 .img-holder {
-    width: 150px;
+    width: auto;
     height: auto;
     float: left;
     display: inline-block;
-    position: relative;
-    z-index: -12;
-    margin-bottom: 1em;
 }
 .img-holder img {
-    width: 150px;
     border-radius: 50%;
     -moz-border-radius: 50%;
     -webkit-border-radius: 50%;
-    display: block;
-    position: relative;
-    z-index: -15;
 }
 
