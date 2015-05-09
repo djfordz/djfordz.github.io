@@ -1,10 +1,27 @@
 /**
  * Site header
  */
+ core-header-panel {
+    height: 25%;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+core-toolbar {
+    width: 100%;
+    background: $header-color;
+    color: white;
+}
+#tabs {
+    width: 60%;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-transform: uppercase;
+}
 .site-header {
     border-top: 5px solid $brand-color;
     border-bottom: 1px solid $brand-color;
-    min-height: 56px;
     background-color: $header-color;
 
     // Positioning context for the mobile navigation icon
@@ -13,24 +30,21 @@
 
 .site-title {
     font-family: $title-font-family;
-    font-size: 32px;
+    font-size: 2.2em;
     line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
     color: $header-text-color;
 
     &,
     &:visited {
-        color: $grey-color-light;
+        color: white;
     }
     @include media-query($on-palm) {
-        font-size: 24px;
+        font-size: 1.2em;
         margin-left: 0;
     }
 }
 .site-subtitle {
-    font-size: 18px;
+    font-size: 1.2em;
     margin-left: 20px;
     margin-bottom: 0;
     float: left;
@@ -38,6 +52,7 @@
     letter-spacing: -1px;
     color: $header-text-color;
     display: inline-block;
+    padding: 0 2em 0 4em;
 
     @include media-query($on-palm) {
         font-size: 14px;
@@ -191,7 +206,7 @@
 /**
  * Page content
  */
-.page-content {
+#page-content {
     padding: $spacing-unit 0;
 }
 
@@ -276,9 +291,10 @@
     color: $green-color;
 }
 #hello {
-
+    font-size: 1.6em;
 }
 #get-started {
+    font-size: 1.35em;
 
 }
 #objective {
@@ -294,7 +310,7 @@
     padding: 8px;
 }
 .img-holder {
-    width: auto;
+    width: 150px;
     height: auto;
     float: left;
     display: inline-block;

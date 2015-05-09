@@ -3,11 +3,10 @@
 
   {% include head.html %}
 
-  <body>
-    <a class="scrollup" href="#">Scroll</a>
+  <body unresolved>
     {% include header.html %}
 
-    <div class="page-content">
+    <div id="page-content">
       <div class="wrapper">
         {{ content }}
       </div>
@@ -16,17 +15,14 @@
     {% include footer.html %}
 
     <script>
-      var cb = function() {
-        var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = 'main.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
-      };
-      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
-          webkitRequestAnimationFrame || msRequestAnimationFrame;
-      if (raf) raf(cb);
-      else window.addEventListener('load', cb);
-    </script>
+      var tabs = document.querySelector('paper-tabs');
+      var content = document.getElementById('page-content');
 
+      tabs.addEventListener('core-select', function() {
+          console.log('selected:' + tabs.selected)
+      });
+    </script>
+</polymer-element>
   </body>
 
 </html>

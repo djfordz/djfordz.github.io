@@ -5,7 +5,7 @@ email: djfordz@gmail.com
 author: David Ford
 description: > # this means to ignore newlines until "baseurl:"
    Studying Computer Science has created infinite possibilites, boundless creative expression, and a sincere appreciation for the mathematical universe. (42)
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 twitter_username: djfordz
 github_username:  djfordz
@@ -16,11 +16,3 @@ timezone: America/Chicago
 encoding: utf-8
 highlighter: pygments
 
-defaults:
-    -
-        scope:
-            path: ""
-            type: "post"
-        values:
-            layout: "post"
-            author: "David Ford"
