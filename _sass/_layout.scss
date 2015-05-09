@@ -10,7 +10,6 @@
 }
 core-toolbar {
     width: 100%;
-    background: $header-color;
     color: white;
     position: relative;
     display: block;
@@ -43,9 +42,6 @@ core-toolbar a {
 }
 .content {
     padding: 20px;
-}
-core-drawer-panel:not([narrow]) #navicon {
-    display: none;
 }
 .site-header {
     border-top: 5px solid $brand-color;
@@ -166,12 +162,23 @@ core-drawer-panel:not([narrow]) #navicon {
     padding: $spacing-unit 0;
     background-color: $header-color;
 }
+.site-footer a {
+    color: white;
+
+    &:visited {
+        color: white;
+    }
+    &:hover {
+        color: darken(white, 10%);
+    }
+}
+
 
 .footer-heading {
     font-family: $title-font-family;
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
-    color: $grey-color-light;
+    color: #222;
 }
 
 .contact-list,
