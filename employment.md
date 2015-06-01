@@ -3,37 +3,39 @@ layout: default
 title: Employment
 ---
 
-###Date: 12/2014 - Present
+###Date: 02.2015 - Continuing
 
-##Search Analyst at Leapforce Technical
+##Aircraft Structures Technician @ Bombardier Aerospace Corporation
+
+````
+Repair, Overhaul, and modify aircraft flight control surfaces, thrust reversers, engine cowlings, as well as primary and secondary structure.
+````
+
+###Date: 12.2014 - Continuing
+
+##Search Analyst @ Leapforce Technical
 
 ````
 Track, analyze, and project search optimization techniques, to include detailed page analysis, relevance to search criteria, index locality, and project current trends in search techniques.
 ````
 
-###Date: 2013 - Present
+###Date: 2013 - Continuing
 
-##Full time student at Walden University, Colorado Technical University, edX.org (Harvard and MIT courses) 
+##Full time student @ Colorado Technical University & edX.org (Harvard and MIT courses)
 
+````
     -Committed Student with a 3.82 Cumulative GPA
     -Study Skills
     -Time Management
     -Computer Programming
     -Computer Network Diagnosis and Repair
-
-###Date: 2012 - Present
-
-##Full time Father
-
-    -Time Management
-    -Disciplinary Review
-    -Leadership
-    -Household Management
-    -Budgeting and Money Management
+````
 
 ###Date: 10.2012 - 3.2013
 
-##Manufacturing Engineer--Essner Manufacturing - Fort Worth, TX
+##Manufacturing Engineer @ Essner Manufacturing
+
+```
     Responsibilities Included:
         -Write production planning
         -Provide solutions to production errors
@@ -47,10 +49,13 @@ Track, analyze, and project search optimization techniques, to include detailed 
         -Creating BOM (Bill of Material) for Production
         -Ensure processes were current and correctly utilized
         -Design necessary tooling to support manufacturing
+```
 
 ###Date: 4.2004 - 10.2012
 
-##Contract Aircraft Structures Mechanic--Strom Aviation - Various
+##Contract Aircraft Structures Mechanic @ Strom Aviation
+
+```
     Responsibilities Include:
         -Aircraft Structural Damage Assessment
         -Sheetmetal fabrication
@@ -67,10 +72,12 @@ Track, analyze, and project search optimization techniques, to include detailed 
                 -Bell 222/230, 212, 412, OH-58
                 -Sikorsky UH-60 (production and field repair)
                 -Thrust Reverser and Flight Control balancing, repair, rework, overhaul and modifications
+```
 
 ###Date: 2.1999 - 4.2004
 
-##Overhaul Support Mechanic--American Airlines - Fort Worth, TX
+##Overhaul Support Mechanic @ American Airlines
+```
     Responsibilities Include:
         -Composite damage assessment, removal, repair
         -Structural damage assessment, removal, repair
@@ -81,14 +88,17 @@ Track, analyze, and project search optimization techniques, to include detailed 
             -Boeing 767
             -McDonnell Douglas MD80
             -Boeing 757
+```
 
 ###Date: 10.1994 - 10.1998
 
 ##United States Marine Corps - Camp Pendleton, CA
+
+```
     Responsibilities Include:
         -Rifle Marksmanship: Expert
         -Grade E4/Corporal
         -Airframe and Hydraulic Technician
             -UH-1N Huey and AH-1W Cobra Helicopters
-
+```
 
