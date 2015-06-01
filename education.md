@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Education
-permalink: /education/
 ---
 
 ###Currently Enrolled Curriculum _as of: {{ site.time }}_
@@ -16,7 +15,8 @@ permalink: /education/
 
     edX.org--Certificate of Achievement
         Course Start: January 1, 2015
-        Projected Finish: March 1, 2015
+        Projected Finish: July 1, 2015
+        Current Project: pset8 Mashups, using Google maps API, Javascript, and Google News API to create a movable and searchable map with current news trends listed per zipcode.
 
 ####[MIT6.00x--Introduction to Computer Science](http://edx.org)
 
@@ -47,22 +47,8 @@ permalink: /education/
     Ruby: 22% complete
     Python: 0% complete
 
-###Completed Curriculum as of {{ site.time }}
-
-####[Walden University](http://waldenu.edu)
-
-    Bachelor of Science in Information Technology
-        GPA: 3.42 Cumulative
-        Transfer Date:  July 20, 2014
-
 ####[University of Texas at Arlington](http://uta.edu)
 
     Bachelor of Science in Undeclared
     GPA: 3.22 Cumulative
     Withdrawal Date: June 5, 2004
-
-####[United States Marine Corps](http://ebenefits.va.gov)
-
-    Primary Leadership Courses by Correspondence
-    UH1-N/AW-1W Helicopter Airframe Mechanic Specialization
-

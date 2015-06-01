@@ -20,7 +20,7 @@ defaults:
     -
         scope:
             path: ""
-            type: "post"
+            type: "posts"
         values:
-            layout: "post"
+            layout: "posts"
             author: "David Ford"

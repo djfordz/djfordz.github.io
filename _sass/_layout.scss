@@ -193,6 +193,11 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+
+    h3 {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 }
 
 .page-heading {
@@ -294,14 +299,15 @@
     padding: 8px;
 }
 .img-holder {
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 150px;
     float: left;
     display: inline-block;
 }
-.img-holder img {
-    border-radius: 50%;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
+
+.home img {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto 0 auto;
 }
 

@@ -1,11 +1,11 @@
 ---
-layout: default
+layout: page
 title: Employment
 ---
 
-###Date: 02.2015 - Continuing
 
-##Aircraft Structures Technician @ Bombardier Aerospace Corporation
+###Aircraft Structures Technician @ Bombardier Aerospace Corporation
+Date: 02.2015 - Continuing
 
     -Repair of aircraft components
     -Modify aircraft flight control surfaces
@@ -13,9 +13,8 @@ title: Employment
     -Riveting of aircraft structure
     -Primary and secondary structure repair.
 
-###Date: 12.2014 - Continuing
-
-##Search Analyst @ Leapforce Technical
+###Search Analyst @ Leapforce Technical
+Date: 12.2014 - Continuing
 
     -Track, analyze, and project search optimization techniques
     -Detailed page analysis, 
@@ -23,9 +22,8 @@ title: Employment
     -Index locality
     -Project current trends in search techniques.
 
-###Date: 2013 - Continuing
-
-##Full time student @ Colorado Technical University & edX.org (Harvard and MIT courses)
+###Full time student @ Colorado Technical University & edX.org (Harvard and MIT courses)
+Date: 2013 - Continuing
 
     -Committed Student with a 3.82 Cumulative GPA
     -Study Skills
@@ -33,9 +31,8 @@ title: Employment
     -Computer Programming
     -Computer Network Diagnosis and Repair
 
-###Date: 10.2012 - 3.2013
-
-##Manufacturing Engineer @ Essner Manufacturing
+###Manufacturing Engineer @ Essner Manufacturing
+Date: 10.2012 - 3.2013
 
     -Write production planning
     -Provide solutions to production errors
@@ -50,9 +47,8 @@ title: Employment
     -Ensure processes were current and correctly utilized
     -Design necessary tooling to support manufacturing
 
-###Date: 4.2004 - 10.2012
-
-##Contract Aircraft Structures Mechanic @ Strom Aviation
+###Contract Aircraft Structures Mechanic @ Strom Aviation
+Date: 4.2004 - 10.2012
 
     -Aircraft Structural Damage Assessment
     -Sheetmetal fabrication
@@ -70,9 +66,8 @@ title: Employment
         -Sikorsky UH-60 (production and field repair)
         -Thrust Reverser and Flight Control balancing, repair, rework, overhaul and modifications
 
-###Date: 2.1999 - 4.2004
-
-##Overhaul Support Mechanic @ American Airlines
+###Overhaul Support Mechanic @ American Airlines
+Date: 2.1999 - 4.2004
 
     -Composite damage assessment, removal, repair
     -Structural damage assessment, removal, repair
@@ -84,9 +79,8 @@ title: Employment
         -McDonnell Douglas MD80
         -Boeing 757
 
-###Date: 10.1994 - 10.1998
-
-##United States Marine Corps
+###United States Marine Corps
+Date: 10.1994 - 10.1998
 
     -Rifle Marksmanship: Expert
     -Grade E4/Corporal
