@@ -14,6 +14,7 @@ So after having no issues installing a magento test server, I went to login to t
 ###The answer -- simplicity at its finest
 
 ```
+
 In new Magento Installation, do the following ->
 
 Open the file
@@ -29,6 +30,7 @@ and change the code at line 87 to this ->
       //  'secure'   => $cookie->isSecure(),
       //  'httponly' => $cookie->getHttponly()
     );
+
 ```
 
 Would I do this on a production server? hell no...
