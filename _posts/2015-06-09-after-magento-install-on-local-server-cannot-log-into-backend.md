@@ -14,14 +14,13 @@ So after having no issues installing a magento test server, I went to login to t
 ###The answer -- simplicity at its finest
 
 ```
-
 In new Magento Installation, do the following ->
 
 Open the file
 
 app/code/core/Mage/Core/Model/Session/Abstract/Varien.php.
 
-and change the code at line 87 to this ->
+and change the code at line 97 to this ->
 
     $cookieParams = array(
         'lifetime' => $cookie->getLifetime(),
@@ -34,12 +33,6 @@ and change the code at line 87 to this ->
 ```
 
 Would I do this on a production server? hell no...
-so what do we do for a permanent fix?
 
-Well, technically this shouldn't happen on a production server, however if it does, it is because you have magneto installed in a subdirectory of root (this seems to be root cause).
-
-So what we do? Comment out the lines of code as described above, login to the admin panel, goto system->configuration, Down to ->Advanced->Admin on the left-hand side of screen (at the bottom so scroll down), click 'Admin Base URL' and change Use Custom Admin URL -> Yes (enter your base URL including subdirectory) Select 'Use Custom Admin Path' -> yes, (Enter how you would like to get to admin panel..e.g. admin, backend, hireME, etc...).
-
-Go back to `app/code/core/Mage/Core/Model/Session/Abstract/Varien.php.` and uncomment lines previously commented..and viola...you can now login to admin... 
 
 #####This has been a test and only a test we now return you to your regular scheduled program: Dev-Test -- Yikes!
