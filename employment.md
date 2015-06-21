@@ -14,7 +14,7 @@ Date: 02.2015 - Continuing
     -Primary and secondary structure repair.
 
 ###Search Analyst @ Leapforce Technical
-Date: 12.2014 - Continuing
+Date: 12.2014 - June 5, 2015
 
     -Track, analyze, and project search optimization techniques
     -Detailed page analysis, 

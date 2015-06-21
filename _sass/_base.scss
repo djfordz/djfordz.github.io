@@ -30,12 +30,14 @@ ul, ol, dl, figure,
 %vertical-rhythm {
     margin-bottom: $spacing-unit / 2;
 }
-
+h3 {
+  margin-bottom: 2em;
+}
 /**
  * Images
  */
 img {
-    max-width: 100%;
+    max-width: 70%;
     vertical-align: middle;
 }
 

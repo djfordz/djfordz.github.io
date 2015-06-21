@@ -9,20 +9,28 @@ title: Education
 
     Software Application Programming Specialization
         GPA: 3.8 Cumulative
-        Graduation Date: March 27, 2018
+        Graduation Date: TBD
+        Current Status: Withdrawal 
+    
+    Primary Language: Java
 
 ####[HarvardX--Introduction to Computer Science (CS50)](http://edx.org)
 
     edX.org--Certificate of Achievement
         Course Start: January 1, 2015
-        Projected Finish: July 1, 2015
-        Current Project: pset8 Mashups, using Google maps API, Javascript, and Google News API to create a movable and searchable map with current news trends listed per zipcode.
+        Projected Finish: September 31, 2015
+        Current Project: Final Project 
+
+        Primary Language: C
+        Other Languages: PHP, Javascript 
 
 ####[MIT6.00x--Introduction to Computer Science](http://edx.org)
 
     edX.org--Certificate of Achievement
         Course Start: September 22, 2014
         Course End:  December 22, 2014
+
+    Primary Language: Python 
 
 ####[The Odin Project](http://theodinproject.com)
 

@@ -50,16 +50,16 @@
 $base-font-family: "Karma", "Laila", Georgia, Serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.5em;
 $title-font-family: "Reenie Beanie", "Laila", Helvetica, sans-serif;
 $primary-font-family: "Laila", Verdana, Trebuchet, sans-serif;
 $spacing-unit:     30px;
 
-$text-color:       #2a2a2a;
-$header-color: #2e2f2f;
+$text-color:        #2a2a2a;
+$header-color:      #2e2f2f;
 $header-text-color: #fff;
-$background-color: #ececec;
-$brand-color:      #538287;
+$background-color:  #fff;
+$brand-color:       #538287;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
