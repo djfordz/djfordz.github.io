@@ -21,13 +21,3 @@
   ga('send', 'pageview');
 
 </script>
-
-<!-- facebook opengraph -->
-
-<meta property="og:site_name" content="Ninja's and Pirates, Argghh!">
-<meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-<meta property="og:title" content="{% if page.title %} {{page.title}}{% else %}{{site.title}}{% endif %}">
-<meta property="og:description" content="{{ site.description }}">
-<meta property="og:image" content="img/dford_logo_nopad.png">
-<meta property="og:type" content="blog">
-</head>
