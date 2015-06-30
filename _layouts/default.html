@@ -4,21 +4,30 @@
   {% include head.html %}
 
   <body>
-    <a class="scrollup" href="#">Scroll</a>
     {% include header.html %}
 
-    <div class="page-content">
+    <div class="page-landing">
       <div class="wrapper">
         {{ content }}
       </div>
     </div>
 
     {% include footer.html %}
+     <script>
+        $(function() {
+            $('.dial').knob({
+                'readOnly':true,
+                'angleOffset':180,
+                'width': 75,
+                'height': 75
+            });
 
+        });
+        </script>
     <script>
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = 'main.css';
+        l.href = 'css/main.css';
         var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
       };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
@@ -26,7 +35,6 @@
       if (raf) raf(cb);
       else window.addEventListener('load', cb);
     </script>
-
   </body>
 
 </html>

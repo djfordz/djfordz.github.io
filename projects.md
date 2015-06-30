@@ -8,23 +8,33 @@ tags: [web developent]
 
 ###Included here are links to a few projects I have built over the course of this year, most of them as school projects.
 
+<a href="http://crime.dfordz.com">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
+###[True Crime!](http://crime.dfordz.com "crime") | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 
-####[True Crime!](http://crime.dfordz.com "crime") | [Source Code](https://github.com/cs50_psets/tree/master/pset8)
+1. Google Maps API
+2. Google News API
+3. PHP
+4. Javascript.
+5. JQuery
+6. Twitter TypeAhead.js
+7. MySql
 
-I built this project for Harvard's CS50 class utilizing Google's Maps API, Twitter's typeahead.js, good ol' PHP, with a mixture of Jquery and Javascript for good measure.
+<a href='http://finance.dfordz.com'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
-![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)
+###[CS50Finance](http://finance.dfordz.com "finance") | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
 
+1. MySql
+2. PHP
+3. Bootstrap
+4. HTML/CSS
 
-###[CS50Finance](http://finance.dfordz.com "finance") | [Source Code](https://github.com/cs50_psets/tree/master/pset7)
+<a href='http://christineford.org'>![Artistic Flair](https://cloud.githubusercontent.com/assets/5413221/8270527/9cd5e4bc-17a7-11e5-83ed-a713de34db49.png)</a>
 
-For the love of money! Want to practice buying and selling stocks using actual up-to-the-minute quotes from yahoo finance? You can do it on this site! Utilizing PHP, I created a site which stores usernames and hashed passwords in a database, query's Yahoo Finance RSS feed, downloads the realtime data for stock quotes and uses this data to fictitiously buy and sell stocks, all the while keeping a record of every transaction by use of a MySql database.
+###[For Mom, With Love](http://christineford.com) | [Source Code](https://github.com/djfordz/christineford.org)
 
-![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)
-
-
-###[For Mom](http://christineford.com)
-I created a website for my mother, which certian criteria had to be met. Jekyll powers this site to create a Southwest style theme for her to showcase her published books.
-
- ![Artistic Flair](https://cloud.githubusercontent.com/assets/5413221/8270527/9cd5e4bc-17a7-11e5-83ed-a713de34db49.png)
+1. Jekyll
+2. HTML
+3. CSS
+4. Mustache
+5. Liquid Templating Engine

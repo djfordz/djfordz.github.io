@@ -1,0 +1,22 @@
+{
+  "name": "dfordz",
+  "version": "1.0.0",
+  "homepage": "https://github.com/djfordz/djfordz.github.io",
+  "authors": [
+    "David Ford <djfordz@gmail.com>"
+  ],
+  "description": "Pirates and Ninjas! Arrgg!",
+  "keywords": [
+    "resume",
+    "cv",
+    "dfordz"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

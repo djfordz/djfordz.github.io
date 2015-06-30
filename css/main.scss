@@ -4,38 +4,38 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: "Karma";
-    src: url(../fonts/Karma/Karma-Regular.ttf);
+    font-family: "Dosis";
+    src: url(../fonts/Dosis/Dosis-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Karma";
-    src: url(../fonts/Karma/Karma-Bold.ttf);
+    font-family: "Dosis";
+    src: url(../fonts/Dosis/Dosis-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: "Karma";
-    src: url(../fonts/Karma/Karma-Regular.ttf);
+    font-family: "Dosis";
+    src: url(../fonts/Dosis/Dosis-Regular.ttf);
     font-weight: normal;
     font-style: italic;
 }
 @font-face {
-    font-family: "Laila";
-    src: url(../fonts/Laila/Laila-Regular.ttf);
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Laila";
-    src: url(../fonts/Laila/Laila-Bold.ttf);
+    font-family: "Raleway";
+    src: url(../fonts/Laila/Raleway-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: "Laila";
-    src: url(../fonts/Laila/Laila-Regular.ttf);
+    font-family: "Railway";
+    src: url(../fonts/Laila/Railway-Regular.ttf);
     font-weight: normal;
     font-style: italic;
 }
@@ -47,21 +47,21 @@
 }
 
 // Our variables
-$base-font-family: "Karma", "Laila", Georgia, Serif;
-$base-font-size:   16px;
+$base-font-family: "Raleway", Helvetica, sans-serif;
+$base-font-size:   14pt;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5em;
-$title-font-family: "Reenie Beanie", "Laila", Helvetica, sans-serif;
-$primary-font-family: "Laila", Verdana, Trebuchet, sans-serif;
-$spacing-unit:     30px;
+$title-font-family: "Dosis", Helvetica, sans-serif;
+$primary-font-family: "Raleway", Helvetica, sans-serif;
+$spacing-unit:     20px;
 
-$text-color:        #2a2a2a;
-$header-color:      #2e2f2f;
+$text-color:        #212121;
+$header-color:      #212121;
 $header-text-color: #fff;
 $background-color:  #fff;
-$brand-color:       #538287;
+$brand-color:       #ff5722;
 
-$grey-color:       #828282;
+$grey-color:       #727272;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $green-color: #009015;
