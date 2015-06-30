@@ -19,6 +19,7 @@ tags: [web developent]
 5. JQuery
 6. Twitter TypeAhead.js
 7. MySql
+<br><br><br>
 
 <a href='http://finance.dfordz.com'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
@@ -28,6 +29,7 @@ tags: [web developent]
 2. PHP
 3. Bootstrap
 4. HTML/CSS
+<br><br><br><br><br><br>
 
 <a href='http://christineford.org'>![Artistic Flair](https://cloud.githubusercontent.com/assets/5413221/8270527/9cd5e4bc-17a7-11e5-83ed-a713de34db49.png)</a>
 
