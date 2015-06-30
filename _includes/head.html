@@ -5,12 +5,12 @@
     <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="cache-control" content="public, max-age=28800">
-    <link rel="stylesheet" href="{{ 'css/main.css' | prepend: site.baseurl }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-    <link rel="icon" type="image/png" href="favicon.png">
-    <link rel="apple-touch-icon" type="image/png" href="favicon.png">
-    <script src='bower_components/jquery/dist/jquery.min.js'></script>
-    <script src='bower_components/aterrien/jQuery-Knob/dist/jquery.knob.min.js'></script>
+    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.url }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url | prepend: site.url }}">
+    <link rel="icon" type="/image/png" href="{{ 'favicon.png' | prepend: site.url }}">
+    <link rel="apple-touch-icon" type="/image/png" href="{{ 'favicon.png' | prepend: site.url }}">
+    <script src="{{'/bower_components/jquery/dist/jquery.min.js' | prepend: site.url }}"></script>
+    <script src="{{'/bower_components/aterrien/jQuery-Knob/dist/jquery.knob.min.js' | prepend: siteurl }}"></script>
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
