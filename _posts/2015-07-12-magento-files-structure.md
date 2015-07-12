@@ -139,7 +139,7 @@ The way Magento parses a module should be what you follow when writing the modul
 
 ###Making a controller for the module.
 
-THis controller will send an email from a form in made in the cms page filling out sender info and sending it to a store contact listed in admin panel.
+This controller will send an email from a form from the cms page and sending it to a store contact listed in admin panel.
 
 {% highlight php %}
 <?php
