@@ -1,6 +1,8 @@
 ---
 layout: post
-title: Magento Module XML Files Structure and Location
+title: Magento Module File Structure With Email Controller
+categories: [Magento]
+tags: [Magento, Modules, XML Email Controller]
 ---
 
 ##File Structure for Magento Module files.
@@ -15,10 +17,11 @@ Thus the directory structure of the below code when parsed will point to `app/co
 
 Convention is to name config file in `app/etc/modules/` the namespace of the module thus this config file would be named `Enterprise_Banner.xml`
 
-```
-# app/etc/modules/Dfordz_Module.xml
-    Instantiates the module.  Allows Magento to recognize it
+app/etc/modules/Dfordz_Module.xml
 
+Instantiates the module.  Allows Magento to recognize it
+
+{% highlight xml %}
 <?xml version="1.0" encoding="UTF-8"?>
 
 <config>
@@ -31,36 +34,37 @@ Convention is to name config file in `app/etc/modules/` the namespace of the mod
         </Dfordz_Module>
     </modules>
 </config>
-```
+{% endhighlight %}
 
 Files are loaded strictly in alphabetic order, except module dependencies.
 
-```
-# app/code/codePool/namespace/module/etc/config.xml
+{% highlight xml %}
+<!--app/code/codePool/namespace/module/etc/config.xml-->
 
 <?xml version="1.0" encoding="UTF-8"?>
 
 <config>
     <modules>
-        # Contains module declarations (names,statuses,dependencies)
+        <!--Contains module declarations (names,statuses,dependencies)-->
     </modules>
     <global>
-        # Contains definitions that should be shared between all scopes
+        <!--Contains definitions that should be shared between all scopes-->
     </global>
     <default>
-        # Contains definitions that require only for frontend area
+        <!--Contains definitions that require only for frontend area-->
     </default>
     <frontend>
-        # Contains definitions that require only for frontend area
+        <!--Contains definitions that require only for frontend area-->
     </frontend>
     <catalog>
-        # Contains definitions that require only for Mage_Catalog
+        <!--Contains definitions that require only for Mage_Catalog-->
     </catalog>
-    #...
+    <!--...-->
 </config>
 
 #NOTE: definitions are XML files.
-```
+
+{% endhighlight %}
 
 Declared in Global Node
   Main database settings, such as host, database name, user name, password, and some system values.
@@ -87,33 +91,32 @@ Rest specific to a certain module
 
 config file for our Enterprise Banner Module
 
-```
-# app/code/local/Dfordz/Module/etc/config.xml
+{%highlight xml %}
+<!-- app/code/local/Dfordz/Module/etc/config.xml-->
 
 <?xml version="1.0" encoding="UTF-8"?>
 
 <config>
-    <modules>                           # required
-        <Dfordz_Module>                 # namespace_moduleName
-            <version>0.0.1</version>    # version
+    <modules>                           <!--required-->
+        <Dfordz_Module>                 <!--namespace_moduleName-->
+            <version>0.0.1</version>    <!--version-->
         <Dfordz_Module>
     </modules>
 
     <frontend>
         <routers>
-            <dfzform>                   # can be anything, make it related to module, will connect the frontend files.-->
+            <dfzform>                   <!--can be anything, make it related to module, will connect the frontend files.-->
                 <use>standard</use>
                 <args>
-                    <module>Dfordz_Module</module>  # namespace_moduleName
-                    <frontName>module</frontName>   # what connects it to app/design/base/default/template/
+                    <module>Dfordz_Module</module>  <!--namespace_moduleName-->
+                    <frontName>module</frontName>   <!--what connects it to app/design/base/default/template/-->
                 </args>
             </dfzform>
         </routers>
     </frontend>
 
 </config>
-
-```
+{% endhighlight %}
 
 ###How to access to configuration value
 
@@ -138,9 +141,7 @@ The way Magento parses a module should be what you follow when writing the modul
 
 THis controller will send an email from a form in made in the cms page filling out sender info and sending it to a store contact listed in admin panel.
 
-
-```
-
+{% highlight php %}
 <?php
 
 class Dfordz_Module_FormController extends Mage_Core_Controller_Front_Action
@@ -153,27 +154,27 @@ class Dfordz_Module_FormController extends Mage_Core_Controller_Front_Action
         $toName = Mage::getStoreConfig('contacts/name/recipient_name');
         $toEmail = Mage::getStoreConfig('contacts/email/recipient_email');
 
-		$params = $this->getRequest();
+    $params = $this->getRequest();
 
         // _POST Params
         $customerName = $params->getParam('contact_name');
         $customerEmail = $params->getParam('email');
-		$customerCompany = $params->getParam('company');
-		$customerPhone = $params->getParam('phone');
-		$product = $params->getParam('product');
-		$quantity = $params->getParam('quantity');
-		$subscription = $params->getParam('subscription');
+    $customerCompany = $params->getParam('company');
+    $customerPhone = $params->getParam('phone');
+    $product = $params->getParam('product');
+    $quantity = $params->getParam('quantity');
+    $subscription = $params->getParam('subscription');
 
-		$subcription = null;
-		$subscriptionAns = null;
+    $subcription = null;
+    $subscriptionAns = null;
 
-		if($subscription === 'on') {
-			$subscriptionAns = "yes";
-		} else {
-			$subscriptionAns = "no";
-		}
+    if($subscription === 'on') {
+      $subscriptionAns = "yes";
+    } else {
+      $subscriptionAns = "no";
+    }
 
-		// email header
+    // email header
         $mail->setToName($toName);
         $mail->setToEmail($toEmail);
         $mail->setSubject("New Custom Quote from $customerCompany");
@@ -184,12 +185,12 @@ class Dfordz_Module_FormController extends Mage_Core_Controller_Front_Action
             A new form has been submitted!\n
 
             Contact Name: $customerName\n
-			Company: $customerCompany\n
-			Phone Number: $customerPhone\n
-			Email: $customerEmail\n
-			Product: $product\n
-			Quantity: $quantity\n
-			Subscription: $subscriptionAns\n
+      Company: $customerCompany\n
+      Phone Number: $customerPhone\n
+      Email: $customerEmail\n
+      Product: $product\n
+      Quantity: $quantity\n
+      Subscription: $subscriptionAns\n
         ");
 
         try {
@@ -207,6 +208,4 @@ class Dfordz_Module_FormController extends Mage_Core_Controller_Front_Action
         $this->_redirect('/buy');
     }
 }
-
-```
-
+{% endhighlight %}
