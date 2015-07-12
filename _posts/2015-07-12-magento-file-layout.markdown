@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: Magento Module XML Files Structure and Location
 ---
 

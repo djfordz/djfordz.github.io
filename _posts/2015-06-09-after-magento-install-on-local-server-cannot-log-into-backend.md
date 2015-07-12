@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: After Magento Install on local server, cannot log into backend
 categories: []
 tags: []
