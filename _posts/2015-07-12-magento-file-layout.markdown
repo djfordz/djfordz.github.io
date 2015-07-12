@@ -15,7 +15,8 @@ Thus the directory structure of the below code when parsed will point to `app/co
 
 Convention is to name config file in `app/etc/modules/` the namespace of the module thus this config file would be named `Enterprise_Banner.xml`
 
-```xml
+```
+
 <!--app/etc/modules/Dfordz_Module.xml
     Instantiates the module.  Allows Magento to recognize it-->
 
@@ -31,11 +32,13 @@ Convention is to name config file in `app/etc/modules/` the namespace of the mod
         </Dfordz_Module>
     </modules>
 </config>
+
 ```
 
 Files are loaded strictly in alphabetic order, except module dependencies.
 
-```xml
+```
+
 <!--app/code/codePool/namespace/module/etc/config.xml-->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -88,6 +91,7 @@ Rest specific to a certain module
 config file for our Enterprise Banner Module
 
 ```
+
 <!--app/code/local/Dfordz/Module/etc/config.xml-->
 
 <?xml version="1.0" encoding="UTF-8"?>
@@ -112,6 +116,7 @@ config file for our Enterprise Banner Module
     </frontend>
 
 </config>
+
 ```
 
 ###How to access to configuration value
@@ -137,7 +142,7 @@ The way Magento parses a module should be what you follow when writing the modul
 
 THis controller will send an email from a form in made in the cms page filling out sender info and sending it to a store contact listed in admin panel.
 
-```php
+```
 
 <?php
 
@@ -205,5 +210,6 @@ class Dfordz_Module_FormController extends Mage_Core_Controller_Front_Action
         $this->_redirect('/buy');
     }
 }
+
 ```
 
