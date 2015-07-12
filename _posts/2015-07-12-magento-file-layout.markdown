@@ -1,8 +1,6 @@
 ---
 layout: posts
-title: "Magento Module XML Files Structure and Location"
-categories: Magento
-tags: [magento, module, xml, structure, location]
+title: Magento Module XML Files Structure and Location
 ---
 
 ##File Structure for Magento Module files.
