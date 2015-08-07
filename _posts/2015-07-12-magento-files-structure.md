@@ -15,7 +15,7 @@ Magento parses all XML files in this directory
 underscores when parsed by autoloader will be translated to slashes.
 Thus the directory structure of the below code when parsed will point to `app/code/local/Dfordz/Module/`
 
-Convention is to name config file in `app/etc/modules/` the namespace of the module thus this config file would be named `Enterprise_Banner.xml`
+Convention is to name config file in `app/etc/modules/` the namespace of the module thus this config file would be named `Djfordz_Module.xml`
 
 app/etc/modules/Dfordz_Module.xml
 
