@@ -33,7 +33,7 @@ tags: [web developent]
 
 <a href='http://christineford.org'>![Artistic Flair](https://cloud.githubusercontent.com/assets/5413221/8270527/9cd5e4bc-17a7-11e5-83ed-a713de34db49.png)</a>
 
-###[For Mom, With Love](http://christineford.com) | [Source Code](https://github.com/djfordz/christineford.org)
+###[For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 
 1. Jekyll
 2. HTML
