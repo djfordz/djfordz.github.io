@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Magento Module File Structure With Email Controller
-categories: [Magento]
-tags: [Magento, Modules, XML Email Controller]
+category: Magento
+tags: Magento, Modules, XML Email Controller
 ---
 
 ##File Structure for Magento Module files.

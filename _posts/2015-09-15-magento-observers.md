@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Creating A Magento Observer
+category: Magento
+tags: Magento, Observers, Modules
 ---
 
 Observers are a very powerful feature of Magento, and one, when used properly,
@@ -27,7 +29,7 @@ First we ceate the shell of our module.  Normally I start at the beginning,
 creating each file in the order Magento reads them.  First up is our
 intialization file at `app/etc/modules/`.
 
-~~~
+{%highlight xml %}
 <!-- app/etc/modules/Dfordz_AwesomeModule.xml -->
 <?xml version="1.0"?>
 <config> <!-- always start with this -->
@@ -39,7 +41,7 @@ intialization file at `app/etc/modules/`.
         </Dfordz_AwesomeModule>
     </modules>
 </config>
-~~~
+{% endhighlight %}
 
 then we create our module directory structure under `app/code/local` as
 specified in the initialization xml file under `codePool`.
@@ -64,7 +66,7 @@ app/code/local/Dfordz/
                                     include it in my config.
 ~~~
 
-~~~
+{% highlight xml%}
 <!-- app/code/local/Dfordz/etc/config.xml -->
 
 <config>
@@ -107,19 +109,19 @@ app/code/local/Dfordz/
     </global>
 </config>
 
-~~~
+{% endhighlight %}
 
 
-~~~
+{% highlight php %}
 <?php
 // app/etc/code/local/Djfordz/AwesomeModule/Awesome.php
 
 class Djfordz_AwesomeModule_Model_Awesome extends Mage_Core_Model_Abstract
 {
 }
-~~~
+{% endhighlight %}
 
-~~~
+{% highlight php %}
 <?php
 // app/etc/code/local/Djfordz/AwesomeModule/Observer.php
 
@@ -132,7 +134,7 @@ class Djfordz_AwesomeModule_Model_Observer
     }
 }
 
-~~~
+{% endhighlight %}
 
 well, that is about it for writing an observer. Again, these blog posts are
 more for me to find the information I need in one place instead of spending
