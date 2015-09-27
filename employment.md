@@ -3,6 +3,19 @@ layout: page
 title: Employment
 ---
 
+###Junior Magento Developer @ Razoyo
+
+* Create complex custom modules
+  * Objected Oriented Programming
+  * MVC Structure
+  * Searching Large Codebase
+  * PHP, Javascript, JQuery
+  * LEMP Stack
+* Troubleshoot and debug complex issues
+* Utilize Git Version Control
+* Use Vim as primary editor
+* Setup individual development VM's
+
 ###Aircraft Structures Technician @ Bombardier Aerospace Corporation
 
 * Repair of aircraft components
