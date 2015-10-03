@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Starting out in Web Development
 category: Web Development
 tags: FreeCodeCamp, CS50x, TheOdinProject
 ---
