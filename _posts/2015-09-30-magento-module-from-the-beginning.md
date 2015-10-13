@@ -210,4 +210,50 @@ Again, a few blogs with better explainations:
 
 {% endhighlight %}
 
+###Now for the logic
+
+{% highlight php%}
+
+<?php
+
+// app/code/local/Namespace/Module/Model/Filename.php
+
+class Namespace_Module_Model_Filename extends Mage_Core_Model_Abstract
+{
+    public function getData()
+    {
+        // call data from database.
+    }
+}
+{% endhighlight %}
+
+{% highlight php %}
+
+<?php
+
+// app/code/local/Namespace/Module/controllers/FilenameController.php
+
+class Namespace_Module_FilenameController extends Mage_Core_Controller_Front_Action
+{
+    public function goAction()
+    {
+        // go somewhere.
+    }
+}
+
+{% endhighlight %}
+
+{% highlight php %}
+<?php
+
+// app/code/local/Namespace_Module_Model_Resource_Filename.php
+
+class Namespace_Module_Model_Resource_Filename extends Mage_Core_Model_Resource_Abstract
+{
+    public function changeDatabase()
+    {
+        //update/write to database.
+    }
+}
+{% endhighlight %}
 ##This is just the beginning, not the end...I'll be adding the template (.phtml) and logic (.php) files here shortly... I just wanted to get this published so I don't have to go to 6 different sites to get this information.
