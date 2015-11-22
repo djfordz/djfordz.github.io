@@ -30,15 +30,16 @@ creating each file in the order Magento reads them.  First up is our
 intialization file at `app/etc/modules/`.
 
 {%highlight xml %}
-<!-- app/etc/modules/Dfordz_AwesomeModule.xml -->
+
+<!-- app/etc/modules/MageForce_MyModule.xml -->
+
 <?xml version="1.0"?>
 <config> <!-- always start with this -->
     <modules> <!-- always has this -->
-        <Dfordz_AwesomeModule> <!-- name of module -->
+        <MageForce_MyModule> <!-- name of module -->
             <active>true</active> <!-- true/false activates your module in Magento--> 
-            <codePool>local</codePool> <!-- where your module is located
-            core/community/local -->
-        </Dfordz_AwesomeModule>
+            <codePool>local</codePool> <!-- where your module is located: core/community/local -->
+        </MageForce_MyModule>
     </modules>
 </config>
 {% endhighlight %}
@@ -49,60 +50,45 @@ specified in the initialization xml file under `codePool`.
 So I will create:
 
 ~~~
-app/code/local/Dfordz/
-                    |
-                    AwesomeModule/
+app/code/local/MageForce/
+                        |
+                        MyModule/
                                 |
                                 etc/
                                 |  |
                                 |  config.xml
                                 |
                                 Model/
-                                    |
-                                    Observer.php
-                                    |
-                                    Awesome.php //Model file not necessary just
-                                    for an Observer but I like using it so I
-                                    include it in my config.
+                                |
+                                Observer.php
+                                |
+                                Filename.php
 ~~~
 
 {% highlight xml%}
-<!-- app/code/local/Dfordz/etc/config.xml -->
+<!-- app/code/local/MageForce/MyModule/etc/config.xml -->
 
 <config>
     <modules>
-        <dfzmodule> <!-- doesn't specifically have to be your modules name, I
-        usually shorten the name of my module and set up a standard which
-        starts with dfz. -->
+        <MageForce_MyModule> 
             <version>0.0.1</version>
-        </dfzmodule>
+        </MageForce_MyModule>
     </modules>
-    <global> <!--this tag depends on where you want your code to affect
-    frontend/default/global/catalog -->
+    <global> <!--this tag depends on where you want your code to affect frontend/default/global/catalog -->
         <models>
-            <dfzmodule> <!-- shortname of module -->
-                <class>Dfordz_AwesomeModule_Model</class>
-            </dfzmoudle>
+            <mfmodule> <!-- shortname of module -->
+            <class>MageForce_MyModule_Model</class>
+            </mfmodule>
         </models>
 
         <events>
-            <catalog_category_load_after> <!--event which we are going to
-            intervene this is called with Mage::dispatchEvent() which we
-            discussed above -->
+            <catalog_category_load_after> <!--event which we are going to intervene this is called with Mage::dispatchEvent() which we discussed above -->
                 <observers>
-                    <dfzmodule> <!--this is why I add the model class above, if
-                    I didn't this would have to be the full name of your module
-                    path -->
-                        <class>dfzmodule/observer</class> <!-- if you add the
-                        model section above you can call your observer this
-                        way...there are two different ways of doing this, I am
-                        just doing it the way I do it -->
-                        <type>model</type> <!-- model/singleton not necessary
-                        defaults to model I believe, just putting it in here
-                        for posterities sake-->
-                        <method>callObserver</method <!-- the function you
-                        create in Observer.php -->
-                    </dfzmodule>
+                    <mfmodule> <!--this is why I add the model class above, if I didn't this would have to be the full name of your module path -->
+                    <class>mfmodule/observer</class>
+                        <type>model</type> <!-- model/singleton not necessary defaults to model I believe, just putting it in here for posterities sake-->
+                        <method>callObserver</method <!-- the function you create in Observer.php -->
+                    </mfmodule>
                 </observers>
             </catalog_category_load_after>
         </events>
@@ -114,18 +100,18 @@ app/code/local/Dfordz/
 
 {% highlight php %}
 <?php
-// app/etc/code/local/Djfordz/AwesomeModule/Awesome.php
+// app/etc/code/local/MageForce/MyModule/Model/Filename.php
 
-class Djfordz_AwesomeModule_Model_Awesome extends Mage_Core_Model_Abstract
+class MageForce_MyModule_Model_Filename extends Mage_Core_Model_Abstract
 {
 }
 {% endhighlight %}
 
 {% highlight php %}
 <?php
-// app/etc/code/local/Djfordz/AwesomeModule/Observer.php
+// app/etc/code/local/MageForce/MyModule/Model/Observer.php
 
-class Djfordz_AwesomeModule_Model_Observer
+class MageForce_MyModule_Model_Observer
 {
     public function callObserver(Varien_Event_Observer $observer)
     {

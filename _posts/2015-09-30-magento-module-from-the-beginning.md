@@ -231,11 +231,25 @@ class Namespace_Module_Model_Filename extends Mage_Core_Model_Abstract
 
 <?php
 
-// app/code/local/Namespace/Module/controllers/FilenameController.php
+// app/code/local/Namespace/Module/controllers/FilenameController.php // indexController.php
 
-class Namespace_Module_FilenameController extends Mage_Core_Controller_Front_Action
+class Namespace_Module_FilenameController /* indexController */ extends Mage_Core_Controller_Front_Action // must end in Controller
 {
-    public function goAction()
+public function indexAction() /* must end in Action. http(s)://storeurl.com/frontName/ (frontName in config.xml) */
+    {
+        //initial index action
+    }
+
+    public function modelAction() /* http(s)://storeurl.com/frontName/model/ */
+    {
+        Mage::getModel('shortname/modelfilename')->getData();
+    }
+
+    public function layoutAction() /* http(s)://storeurl.com/frontName/layout/ */
+    {
+    
+    }
+    public function goAction() /* http(s)://storeurl.com/frontName/go/ */
     {
         // go somewhere.
     }
@@ -255,5 +269,12 @@ class Namespace_Module_Model_Resource_Filename extends Mage_Core_Model_Resource_
         //update/write to database.
     }
 }
+{% endhighlight %}
+
+###Now for the frontend. Template files, Layout,xml files. Having fun yet?
+
+{% highlight php %}
+
+
 {% endhighlight %}
 ##This is just the beginning, not the end...I'll be adding the template (.phtml) and logic (.php) files here shortly... I just wanted to get this published so I don't have to go to 6 different sites to get this information.
