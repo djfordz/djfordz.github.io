@@ -16,11 +16,9 @@ This is done with the use of `Mage::dispatchEvent('event_to_be_dispatched')`
 If one would look in `app/Mage.php` one would see a function called
 `dispatchEvent()` this function fires all the events during that specific page
 load.  So one easy way of seeing all the events fired is logging the events in
-this function using `Mage::log($name)` if you want it displayed in the system log file 
-before the return statement or you can use `Zend_debug::dump()` to send the result to the browser, just be sure to `die()`
-the loading of the page somewhere along the lines so you can just get the
-results.  There are also a few blogs around with an entire list of observers
-Magento uses one such list being [Event Observer
+this function using `Mage::log($name, null, 'events.log') which will output the
+list in var/log/events.log. You can also find lists all over the internet by
+searching for them, one such list being [Event Observer
 List](https://huztechbuzz.wordpress.com/2014/09/03/magento-event-observer-list/).
 
 So now that we have that out of the way. Let's build our own observer.
