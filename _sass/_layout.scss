@@ -1,101 +1,4 @@
 /**
- * Site header
- */
-
-.site-header {
-    border-top: 5px solid $brand-color;
-    border-bottom: 1px solid $brand-color;
-    min-height: 56px;
-    background-color: $header-color;
-    // Positioning context for the mobile navigation icon
-    position: relative;
-}
-
-.site-title {
-    font-family: $title-font-family;
-    font-size: 32px;
-    line-height: 56px;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
-    color: $header-text-color;
-    &, &:visited {
-        color: $grey-color-light;
-    }
-    @include media-query($on-palm) {
-        font-size: 24px;
-        margin-left: 0;
-    }
-}
-
-.site-subtitle {
-    font-size: 18px;
-    margin-left: 20px;
-    margin-bottom: 0;
-    float: left;
-    line-height: 56px;
-    letter-spacing: -1px;
-    color: $header-text-color;
-    display: inline-block;
-    @include media-query($on-palm) {
-        font-size: 14px;
-        margin-left: 10px;
-    }
-}
-
-.site-nav {
-    float: right;
-    line-height: 56px;
-    .menu-icon {
-        display: none;
-    }
-    .page-link {
-        color: $header-text-color;
-        line-height: $base-line-height;
-        // Gaps between nav items, but not on the first one
-        &:not(:first-child) {
-            margin-left: 20px;
-        }
-    }
-    @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
-        background-color: $header-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 36px;
-            height: 26px;
-            line-height: 0;
-            padding-top: 10px;
-            text-align: center;
-            > svg {
-                width: 18px;
-                height: 15px;
-                path {
-                    fill: $grey-color;
-                }
-            }
-        }
-        .trigger {
-            clear: both;
-            display: none;
-        }
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
-}
-/**
  * Site footer
  */
 
@@ -217,7 +120,8 @@
  * Posts
  */
 
-.post-header {
+.post-header, .home {
+    padding-top: $spacing-unit * 2;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -279,7 +183,7 @@
 
 .masthead h1 {
     text-align: center;
-    font-size: 1.8em;
+    font-size: 1.5em;
 }
 
 .masthead h2 {
