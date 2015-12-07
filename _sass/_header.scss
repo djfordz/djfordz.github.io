@@ -2,7 +2,7 @@
  * Site header
  */
 
-.site-header {
+/* .site-header {
     position: fixed;
     width: 100%;
     border-top: 5px solid $brand-color;
@@ -10,10 +10,10 @@
     max-height: 50px;
     background-color: $header-color;
     font-size: .90rem;
-}
+} */
 
 header.sticky {
-    position: fixed;
+   position: fixed;
    top: 2px;
    right: 0px;
    background-color: $header-color;
@@ -98,41 +98,6 @@ header.sticky {
         }
     }
     @include media-query($on-palm) {
-        position: absolute;
-        top: 2px;
-        right: 10px;
-        background-color: $header-color;
-        border: 1px solid $grey-color-light;
-        border-radius: 5px;
-        text-align: right;
-        .menu-icon {
-            display: block;
-            float: right;
-            width: 26px;
-            height: 20px;
-            line-height: 0;
-            padding-top: 4px;
-            text-align: center;
-            > svg {
-                width: 14px;
-                height: 14px;
-                path {
-                    fill: $grey-color;
-                }
-            }
         }
-        .trigger {
-            clear: both;
-            display: none;
-        }
-        &:hover .trigger {
-            display: block;
-            padding-bottom: 5px;
-        }
-        .page-link {
-            display: block;
-            padding: 5px 10px;
-        }
-    }
 }
 
