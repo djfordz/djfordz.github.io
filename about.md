@@ -4,12 +4,9 @@ title: About Me
 tags: [me]
 ---
 
-<div class='img-holder'><img class='logo' src='img/dford_logo_nopad.png'></div>
+<div class='img-holder'><img class='logo' src='img/snow.jpg'></div>
 
-> Intense thinker, Armchair philosopher, Doer of good.
-> With high hopes of becoming an open source coding guru...
-
-###Team-Oriented, Highly-Motivated, Freshly-Minted Programmer ready to take on the challenge of engineering dynamic solutions to the World's problems.
+>Team-Oriented, Highly-Motivated, Freshly-Minted Programmer ready to take on the challenge of engineering dynamic solutions to the World's problems.
 
 I have always been above-par at most things I attempt.  However, the dynamics of programming have proven to be an exceptional challenge.  The sheer volume of subject matter in this field is astounding, for which one has to keep pace with the almost daily changes of the development environment, definitely becomes a daunting task.
 

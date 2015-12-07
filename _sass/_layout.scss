@@ -199,8 +199,13 @@
 }
 .img-holder {
     margin: 0 auto 0 auto;
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
+    display: block;
+}
+
+.img-holder img {
+    border-radius: 50%;
     display: block;
 }
 .img-logo-landing img {
