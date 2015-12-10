@@ -215,7 +215,7 @@
 }
 .img-landing {
     display: block;
-    width: 100%;
+    width: 83%;
     margin: 10px auto 10px auto;
 }
 
@@ -223,6 +223,12 @@
     width: 100px;
     display: inline-block;
     margin: 0 0.50em 0 0.50em;
+
+    @include media-query($on-palm) {
+        width: 150px;
+        display: block;
+        margin: 0 auto 0 auto;
+    }
 }
 .dial {
     width: 50px;
