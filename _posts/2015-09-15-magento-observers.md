@@ -49,18 +49,18 @@ So I will create:
 
 ~~~
 app/code/local/MageForce/
-                        |
-                        MyModule/
-                                |
-                                etc/
-                                |  |
-                                |  config.xml
-                                |
-                                Model/
-                                |
-                                Observer.php
-                                |
-                                Filename.php
+                       |
+                       MyModule/
+                               |
+                               etc/
+                               |  |
+                               |  config.xml
+                               |
+                               Model/
+                                    |
+                                    Observer.php
+                                    |
+                                    Filename.php
 ~~~
 
 {% highlight xml%}
