@@ -31,7 +31,7 @@ tags: [web developent]
 4. HTML/CSS
 <br><br><br><br><br><br>
 
-<a href='http://christineford.org'>![Artistic Flair](https://cloud.githubusercontent.com/assets/5413221/8270527/9cd5e4bc-17a7-11e5-83ed-a713de34db49.png)</a>
+<a href='http://christineford.org'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
 ###[For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 
