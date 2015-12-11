@@ -4,14 +4,12 @@ title: Projects
 tags: [web developent]
 ---
 
-#A Few Good Tutorials
+<h4>A few simple projects, many more can be found at <a href="https://codepen.io/djfordz" target="_blank">codepen.io/djfordz</a></h4>
 
-###Included here are links to a few projects I have built over the course of this year, most of them as school projects.
+<a href="javascript(void)">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
-<a href="http://crime.dfordz.com">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
-
-###[True Crime!](http://crime.dfordz.com "crime") | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
-
+###True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
+<h6>project is not live at this time</h6>
 1. Google Maps API
 2. Google News API
 3. PHP
@@ -21,10 +19,10 @@ tags: [web developent]
 7. MySql
 <br><br><br>
 
-<a href='http://finance.dfordz.com'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
+<a href='javascript(void)'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
-###[CS50Finance](http://finance.dfordz.com "finance") | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
-
+###CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
+<h6>project is not live at this time</h6>
 1. MySql
 2. PHP
 3. Bootstrap
