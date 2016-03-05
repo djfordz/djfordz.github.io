@@ -14,7 +14,7 @@ github_username:  djfordz
 markdown: kramdown
 timezone: America/Chicago
 encoding: utf-8
-highlighter: pygments
+highlighter: rouge
 
 defaults:
     -
