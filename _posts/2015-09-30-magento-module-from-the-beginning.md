@@ -1,8 +1,7 @@
 ---
 layout: post
 title: Creating an entire Magento Module From Scratch
-category: Magento
-tags: Magento, Module, Extension
+
 ---
 
 ##A Magento 1.0 Module from beginning to end

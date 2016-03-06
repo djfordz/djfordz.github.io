@@ -2,7 +2,6 @@
 layout: post
 title: Everything You Need to Know About Markdown Syntax
 author: David Ford
-categories: markdown
 ---
 
 ##The Lowdown on Markdown

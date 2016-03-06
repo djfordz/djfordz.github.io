@@ -2,7 +2,6 @@
 layout: post
 title: Linux Notes (Bash Shell)
 author: David Ford
-categories: linux, bash, notes
 ---
 Starting this thread off is an important one to remove duplicate entries in the PATH variable:
 

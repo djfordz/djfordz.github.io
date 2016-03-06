@@ -2,7 +2,6 @@
 layout: post
 title: Adding Menu Items in a Linux Desktop
 author: David Ford
-categories: linux, notes, xfce4
 ---
 
 ##Linux Desktop Files

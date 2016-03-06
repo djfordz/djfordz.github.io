@@ -2,7 +2,6 @@
 layout: post
 title: Keeping a footer at the bottom of the page
 author: DAvid Ford
-categories: notes, html
 ---
 So this is something I always have to google and seem to forget a little too frequently. So I am adding it to my notes. Here is a simple and easy way to keep a footer at the bottom of a apge regardless how much content is on the page from [CSS Reset](http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css)
 

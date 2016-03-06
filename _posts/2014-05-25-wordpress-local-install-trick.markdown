@@ -4,7 +4,6 @@ status: publish
 published: true
 title: Trick to enable internet access for local Wordpress install
 author: David Ford
-categories: notes, coding
 ---
 ##The beginning of my Wordpress notes... >>
 

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Creating A Magento Observer
-category: Magento
-tags: Magento, Observers, Modules
 ---
 
 Observers are a very powerful feature of Magento, and one, when used properly,

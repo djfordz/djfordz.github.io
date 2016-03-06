@@ -1,10 +1,7 @@
 ---
 layout: post
 title: After Magento Install on local server, cannot log into backend
-categories: []
-tags: []
 published: True
-
 ---
 
 ###The issue -- Magento is funny about the way it stores and uses cookies

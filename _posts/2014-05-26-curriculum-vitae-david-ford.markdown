@@ -4,7 +4,6 @@ status: publish
 published: true
 title: Curriculum Vitae - David Ford
 author: DAvid Ford
-categories: job, resume, cv
 ---
 
 ##Job Wanted

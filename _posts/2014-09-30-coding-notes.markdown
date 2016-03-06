@@ -2,7 +2,6 @@
 layout: post
 title: Bitwise tidbits (addition and multiplication)
 author: David Ford
-categories: C, Programming, Bitwise
 ---
 
 ##Bitwise Operations are pretty awesome....seriously...

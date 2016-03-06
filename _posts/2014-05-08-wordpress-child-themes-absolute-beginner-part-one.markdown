@@ -2,7 +2,6 @@
 layout: post
 title: Wordpress Child Themes
 author: David Ford
-categories: notes, wordpress
 ---
 ##Customizing someone else's work--a.k.a. Child Themes
 

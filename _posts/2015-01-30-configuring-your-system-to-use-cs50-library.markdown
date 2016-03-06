@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Configuring your Linux system for Harvard's CS50 Course
-Category: CS50, Tutorials, Programming
 ---
 
 ###Sometimes using the appliance isn't an option.

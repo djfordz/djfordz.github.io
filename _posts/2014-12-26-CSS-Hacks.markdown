@@ -2,7 +2,6 @@
 layout: post
 title: CSS Hacks
 Author: David Ford
-Categories: Web Design, Notes
 ---
 
 ## For the Love of...CSS?

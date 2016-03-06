@@ -2,7 +2,6 @@
 layout: post
 title: A Look into Linux Desktop Environments
 author: David Ford
-categories: linux, arch, notes, xfce4
 ---
 #Xfce4 is still the best -- and here is why >>
 

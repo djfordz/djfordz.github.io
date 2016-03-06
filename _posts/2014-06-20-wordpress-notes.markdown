@@ -2,7 +2,6 @@
 layout: post
 title: More Wordpress Notes
 author: David Ford
-categories: wordpress, notes, 
 ---
 
 ###A few intricacies of Wordpress

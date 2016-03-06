@@ -2,7 +2,6 @@
 layout: post
 title: Wordpress Notes on Headers for themes and plugins
 author: David Ford
-categories: wordpress, notes
 ---
 
 ###File Headers for Wordpress
