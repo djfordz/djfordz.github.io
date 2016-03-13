@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Employment
+layout: page
 ---
 
-###Junior Magento Developer @ Razoyo
+### Junior Magento Developer @ Razoyo
 
 * Create complex custom modules
   * Objected Oriented Programming
@@ -16,7 +16,7 @@ title: Employment
 * Use Vim as primary editor
 * Setup individual development VM's
 
-###Aircraft Structures Technician @ Bombardier Aerospace Corporation
+### Aircraft Structures Technician @ Bombardier Aerospace Corporation
 
 * Repair of aircraft components
   * Overhaul thrust reversers, engine cowlings
@@ -24,7 +24,7 @@ title: Employment
       * Riveting of aircraft structure
       * Primary and secondary structure repair.
 
-###Search Analyst @ Leapforce Technical
+### Search Analyst @ Leapforce Technical
 
 * Track, analyze, and project search optimization techniques
 * Detailed page analysis,
@@ -32,7 +32,7 @@ title: Employment
 * Index locality
 * Project current trends in search techniques.
 
-###Manufacturing Engineer @ Essner Manufacturing
+### Manufacturing Engineer @ Essner Manufacturing
 
 * Product Manufacturing Solutions
   * Provide solutions to production errors
@@ -46,7 +46,7 @@ title: Employment
   * ERP Software (JobBoss)
 * Customer Support
 
-###Contract Aircraft Structures Mechanic @ Strom Aviation
+### Contract Aircraft Structures Mechanic @ Strom Aviation
 
 * Aircraft Structural Damage Assessment
 * Sheetmetal fabrication
@@ -64,7 +64,7 @@ title: Employment
   * Sikorsky UH-60 (production and field repair)
   * Thrust Reverser and Flight Control balancing, repair, rework, overhaul and modifications
 
-###Overhaul Support Mechanic @ American Airlines
+### Overhaul Support Mechanic @ American Airlines
 
 * Composite damage assessment, removal, repair
 * Structural damage assessment, removal, repair
@@ -76,7 +76,7 @@ title: Employment
   * McDonnell Douglas MD80
   * Boeing 757
 
-###United States Marine Corps
+### United States Marine Corps
 
 * Rifle Marksmanship: Expert
 * Grade E4/Corporal
