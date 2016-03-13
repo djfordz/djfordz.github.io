@@ -1,18 +1,18 @@
 ---
-layout: page
 title: Education
+layout: page
 ---
 
-#####Currently Enrolled Curriculum _as of: {{ site.time }}_
+##### Currently Enrolled Curriculum _as of: {{ site.time }}_
 
-###[FreeCodeCamp.com](http://www.freecodecamp.com/dfordz)
+### [FreeCodeCamp.com](http://www.freecodecamp.com/dfordz)
 
 * Projected Finish: September 31, 2015
     * Current Project: Bonfires - 23 Complete
 * Primary Language: Javascript
   * Secondary Learning Attributes: Agile, JQuery, MongoDB, Angular.js, Express.js, Node.js, Git
 
-###[TheOdinProject.com](http://theodinproject.com)
+### [TheOdinProject.com](http://theodinproject.com)
 
 * Web Development 101
   * 66% completed
@@ -26,7 +26,7 @@ title: Education
   * 46% complete
     * current project: Using Canvas to Draw and More
 
-###[Codecademy.com](http://codecademy.com)
+### [Codecademy.com](http://codecademy.com)
 
 * Javascript: 100% complete
 * jQuery: 100% complete
@@ -36,20 +36,20 @@ title: Education
 * Ruby: 22% complete
 * Python: 0% complete
 
-###[edX.org Harvard Intro to CS CS50x](http://edx.org)
+### [edX.org Harvard Intro to CS CS50x](http://edx.org)
 
 * Projected Finish: September 31, 2015
   * Current Project: Final Project
 * Primary Language: C
   * Other Attributes: PHP, Javascript, MySql, API's, TypeAhead.js
 
-###[edX.org MIT Intro to CS MIT6.00x](http://edx.org)
+### [edX.org MIT Intro to CS MIT6.00x](http://edx.org)
 
 * Course End:  TBD
 * Current Project: n/a
 * Primary Language: Python
 
-###[Colorado Technical University--Bachelor of Science in Information Technology (BSIT)](http://www.coloradotech.edu)
+### [Colorado Technical University--Bachelor of Science in Information Technology (BSIT)](http://www.coloradotech.edu)
 
 * Software Application Programming Specialization
   * GPA: 3.8 Cumulative
@@ -57,7 +57,7 @@ title: Education
 * Current Status: Withdrawal
 * Primary Language: Java
 
-###[University of Texas at Arlington](http://uta.edu)
+### [University of Texas at Arlington](http://uta.edu)
 
 * Bachelor of Science in Undeclared
 * GPA: 3.22 Cumulative
