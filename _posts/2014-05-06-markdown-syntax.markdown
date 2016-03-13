@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Everything You Need to Know About Markdown Syntax
 author: David Ford
+layout: post
 ---
 
-##The Lowdown on Markdown
+## The Lowdown on Markdown
 
-####Let's begin by explaining a bit of what markdown actually is for those who are confused.
+#### Let's begin by explaining a bit of what markdown actually is for those who are confused.
 
 Markdown is a syntax which is used to format an article for publishing on the internet, such as for a blog or website.  It simply substitutes easily type-able characters for the more tedious <abbr>HTML</abbr> tags it is designed to replace.  It then converts the markdown tags to regular <abbr>HTML</abbr> when the document is saved.  Markdown is designed to be used while the article is being written instead of the more traditional method of going back through a document and marking it up in html after its completion.  Making the whole process of formatting a document easier and more efficent.
 

@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Creating A Magento Observer
+layout: post
 ---
+
+## The Power of Observers in Magento
 
 Observers are a very powerful feature of Magento, and one, when used properly,
 will make your life a whole lot easier.  The gist of the entire Event /

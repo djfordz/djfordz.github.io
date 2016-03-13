@@ -1,10 +1,10 @@
 ---
-layout: post
 title: More Wordpress Notes
 author: David Ford
+layout: post
 ---
 
-###A few intricacies of Wordpress
+### A few intricacies of Wordpress
 
 First, let's go ahead and make some instructions on moving the root files to another directory or sub directory.
 
@@ -19,11 +19,11 @@ through `Settings->Permalinks` adding the working direcotry to a custom link typ
 directory as such:
 
 You can manually redirect your visitors to the new location in the `.htaccess` file wit this code:
-~~~~
+```
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www.)?YourDomain.com$
 RewriteRule ^(/)?$ working-directory [L]
-~~~~
+```
 
 Really the best way is to update your existing links in your database with the find and replace method to ensure everything points to the new location.  This involves opening up your database in something like phpMyAdmin and going through manually changing each link to the 
 proper address. To avoid a serialization issue only do the find and replace on the wp_posts table.  You can use [this script](https://
@@ -34,4 +34,3 @@ Moving_WordPress#When_Your_Domain_Name_or_URLs_Change).
 And just in case you really screw up -- here is some fix it instructions:
 Hard coding the URI's into the `wp-login.php` file -- *excerpt from* [Wordpress Codex](http:/codex.wordpress.org/Moving_WordPress#When_Your_Domain_Name_or_URLs_Change)
 
-This is about it for now...peace...

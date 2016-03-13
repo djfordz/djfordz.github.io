@@ -1,14 +1,13 @@
 ---
-layout: post
 title: Creating an entire Magento Module From Scratch
-
+layout: post
 ---
 
-##A Magento 1.0 Module from beginning to end
+## A Magento 1.0 Module from beginning to end
 
 When starting a module I like to start the same way Magento reads the module. From the `app/etc/modules/<file>.xml`, to the `app/etc/code/local/Namespace/Module/etc/config.xml` and so on.  This is obviously preference, but it will be how this post will be written.
 
-####Note: Since this is mainly notes to myself, in depth explainations of the myriad intricacies of Magento will be at a minimum and only the necessary code to create the module will be included.  There are plenty of other blog posts and tutorials which break down each section and give deep explainations, however I need a reference that has the entirety of the module in one place so I am not spending hours looking for each section I need.
+#### Note: Since this is mainly notes to myself, in depth explainations of the myriad intricacies of Magento will be at a minimum and only the necessary code to create the module will be included.  There are plenty of other blog posts and tutorials which break down each section and give deep explainations, however I need a reference that has the entirety of the module in one place so I am not spending hours looking for each section I need.
 
 {% highlight xml %}
 
@@ -209,7 +208,7 @@ Again, a few blogs with better explainations:
 
 {% endhighlight %}
 
-###Now for the logic
+### Now for the logic
 
 {% highlight php%}
 
@@ -270,10 +269,10 @@ class Namespace_Module_Model_Resource_Filename extends Mage_Core_Model_Resource_
 }
 {% endhighlight %}
 
-###Now for the frontend. Template files, Layout,xml files. Having fun yet?
+### Now for the frontend. Template files, Layout,xml files. Having fun yet?
 
 {% highlight php %}
 
 
 {% endhighlight %}
-##This is just the beginning, not the end...I'll be adding the template (.phtml) and logic (.php) files here shortly... I just wanted to get this published so I don't have to go to 6 different sites to get this information.
+#### This is just the beginning, not the end...I'll be adding the template (.phtml) and logic (.php) files here shortly... I just wanted to get this published so I don't have to go to 6 different sites to get this information.

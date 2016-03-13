@@ -10,7 +10,7 @@ Here are some hacks that I always end up needing, yet forgetting where I found t
 
 and here is the gist [CSS Hack-Semi-transparent textbox](https://gist.github.com/9b8a4334b3dfb787de27 "textbox");
 
-{% highlight css%}
+{% highlight css %}
 #front_display {
     width: 450px;
     height: auto;
@@ -25,4 +25,4 @@ and here is the gist [CSS Hack-Semi-transparent textbox](https://gist.github.com
 #front_display:nth-child(n) {
     filter: none;
 }
-{% endhighlight%}
+{% endhighlight %}

@@ -3,11 +3,11 @@ layout: post
 title: Magento Module File Structure With Email Controller
 ---
 
-##File Structure for Magento Module files.
+## File Structure for Magento Module files.
 
-####How Magento finds out about your module
+#### How Magento finds out about your module
 
-_All Configuration files are merged into one file when parsed_
+* All Configuration files are merged into one file when parsed *
 
 Magento parses all XML files in this directory
 underscores when parsed by autoloader will be translated to slashes.
@@ -60,7 +60,7 @@ Files are loaded strictly in alphabetic order, except module dependencies.
     <!--...-->
 </config>
 
-#NOTE: definitions are XML files.
+### NOTE: definitions are XML files.
 
 {% endhighlight %}
 
@@ -135,7 +135,7 @@ Store === Storeview
 The way Magento parses a module should be what you follow when writing the module.
 
 
-###Making a controller for the module.
+### Making a controller for the module.
 
 This controller will send an email from a form from the cms page and sending it to a store contact listed in admin panel.
 

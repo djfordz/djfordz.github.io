@@ -1,10 +1,10 @@
 ---
-layout: post
 title: Wordpress Notes on Headers for themes and plugins
 author: David Ford
+layout: post
 ---
 
-###File Headers for Wordpress
+### File Headers for Wordpress
 
 from [Wordpress Codex](http://codex.wordpress.org/File_Header)
 
@@ -46,15 +46,15 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 {% endhighlight %}
 
-####Codex
+#### Codex
 
 In WordPress Themes and Plugins consist of one or more files of which one has (Drop-Ins, Must-Use-Plugins: can have) so called File Headers containing meta-information (Name, Version, Author, ...) regarding the concrete Theme or Plugin.
 
 File Headers are placed inside a block in the beginning of the file (not necessarily starting on the very first line), one header per line. A Header consists of a Name and a Value.
 
-#####File Header Examples
+##### File Header Examples
 
-~~~~
+```
 Author (Plugin)
 Author URI (Plugin)
 Description (Plugin)
@@ -65,10 +65,10 @@ Plugin URI (Plugin)
 Site Wide Only (Plugin; deprecated in favor of Network)
 Text Domain (Plugin)
 Version (Plugin)
-~~~~
+```
 
-#####Theme
-~~~~
+##### Theme
+```
 Author (Theme)
 Author URI (Theme)
 Description (Theme)
@@ -80,4 +80,4 @@ Text Domain (Theme)
 Theme Name (Theme)
 Theme URI (Theme)
 Version (Theme)
-~~~~
+```
