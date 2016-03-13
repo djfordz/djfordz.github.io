@@ -171,7 +171,7 @@
 
 .content {
     display: block;
-    width: 60%;
+    width: 90%;
     margin: 10px;
     padding: 8px;
 }
@@ -193,7 +193,7 @@
 }
 
 .page-center {
-    width: 90%;
+    width: 1000%;
     margin: 0 auto 20px auto;
     display: block;
 }
@@ -216,7 +216,7 @@
 }
 .img-landing {
     display: block;
-    width: 83%;
+    width: 100%;
     margin: 10px auto 10px auto;
 }
 
@@ -305,5 +305,6 @@ only screen and (max-width: 760px),
   td:nth-of-type(2):before { content: "JS"; }
   td:nth-of-type(3):before { content: "HTML"; }
   td:nth-of-type(4):before { content: "CSS"; }
-  td:nth-of-type(5):before { content: "Magento"; }
+  td:nth-of-type(5):before { content: "Magento 1.x"; }
+  td:nth-of-type(5):before { content: "Magento 2"; }
 }
