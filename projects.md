@@ -1,14 +1,13 @@
 ---
-layout: page
 title: Projects
-tags: [web developent]
+layout: page
 ---
 
 <h4>A few simple projects, many more can be found at <a href="https://codepen.io/djfordz" target="_blank">codepen.io/djfordz</a></h4>
 
 <a href="javascript(void)">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
-###True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
+### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 <h6>project is not live at this time</h6>
 1. Google Maps API
 2. Google News API
@@ -21,7 +20,7 @@ tags: [web developent]
 
 <a href='javascript(void)'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
-###CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
+### CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
 <h6>project is not live at this time</h6>
 1. MySql
 2. PHP
@@ -31,7 +30,7 @@ tags: [web developent]
 
 <a href='http://christineford.org'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
-###[For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
+### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 
 1. Jekyll
 2. HTML
