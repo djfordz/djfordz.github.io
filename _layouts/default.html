@@ -9,11 +9,9 @@
     <div class="page-landing">
         <div class="wrapper">
             <div>
-                {% if page.url == '/index.html'%}
-                    continue;
-                {% elsif page.url == '/about.html' or page.url == '/employment.html' or page.url == '/posts.html' or page.url == '/projects.html' or page.url == '/education.html' %}
+                {% if page.url == '/about.html' or page.url == '/employment.html' or page.url == '/posts.html' or page.url == '/projects.html' or page.url == '/education.html' %}
                     <h5><a href="{{ '/index.html' | prepend: site.url }}">Home </a>-> <a href="{{ page.url }}">{{page.title}}</a></h5>
-                {% else %}
+                {% elsif page.url !== '/index.html' %}
                     <h5><a href="{{ '/index.html' | prepend: site.url }}">Home </a>-> <a href="{{ '/posts.html' | prepend: site.url }}">Posts </a>-> <a href="{{ page.url }}">{{page.title}}</a></h5>
             {% endif %}
             </div>
