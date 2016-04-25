@@ -37,7 +37,7 @@ layout: page
 3. CSS
 4. Mustache
 5. Liquid Templating Engine
-<br><br><br><br>
+<br>
 
 <a href='https://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
