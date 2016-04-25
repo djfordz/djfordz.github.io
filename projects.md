@@ -37,7 +37,6 @@ layout: page
 3. CSS
 4. Mustache
 5. Liquid Templating Engine
-<br>
 
 <a href='https://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
@@ -47,4 +46,4 @@ layout: page
 2. CSS
 3. ASP/.NET C# <sup>*</sup>
 
-<sup>*</sup><sub>Unfortunately, the best part of this project you cannot see from the live page. gh-pages does not support .aspx/c# please look at source code to see the awesomeness that would be supported on a iis server.</sub>
+
