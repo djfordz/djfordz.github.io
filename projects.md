@@ -16,7 +16,7 @@ layout: page
 5. JQuery
 6. Twitter TypeAhead.js
 7. MySql
-<br><br><br>
+<br /><br /><br />
 
 <a href='javascript(void)'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
@@ -26,7 +26,7 @@ layout: page
 2. PHP
 3. Bootstrap
 4. HTML/CSS
-<br><br><br><br>
+<br /><br /><br /><br />
 
 <a href='http://christineford.org'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
@@ -37,6 +37,7 @@ layout: page
 3. CSS
 4. Mustache
 5. Liquid Templating Engine
+<br /><br /><br /><br />
 
 <a href='https://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
