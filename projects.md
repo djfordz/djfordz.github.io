@@ -40,7 +40,7 @@ layout: page
 
 <a href='https://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
-###[Brother's Homework](https://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
+### [Brother's Homework](https://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
 
 1. HTML
 2. CSS
