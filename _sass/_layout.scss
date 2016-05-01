@@ -208,8 +208,11 @@
     border-radius: 50%;
     display: block;
 }
-.img-logo-landing img {
+.img-logo-landing {
     width: 80%;
+}
+.img-logo-landing img {
+    width: 100%;
     display: block;
     margin: 0 auto;
 }
