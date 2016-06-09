@@ -80,9 +80,6 @@
         padding-bottom: 0;
     }
 }
-.spacer {
-    min-height: 400px;
-}
 .page-content {
     padding-top: $spacing-unit / 2;
     padding-bottom: 0;
@@ -123,8 +120,8 @@
  * Posts
  */
 
-.post-header {
-    padding-top: 0;
+.post-header, .home {
+    padding-top: $spacing-unit * 2;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -187,6 +184,7 @@
 .masthead h1 {
     text-align: center;
     font-size: 1.5em;
+    margin-top: 4%;
 }
 
 .masthead h2 {
@@ -306,6 +304,6 @@ only screen and (max-width: 760px),
   td:nth-of-type(2):before { content: "JS"; }
   td:nth-of-type(3):before { content: "HTML"; }
   td:nth-of-type(4):before { content: "CSS"; }
-  td:nth-of-type(5):before { content: "C"; }
-  td:nth-of-type(5):before { content: "C++"; }
+  td:nth-of-type(5):before { content: "Magento 1.x"; }
+  td:nth-of-type(5):before { content: "Magento 2"; }
 }
