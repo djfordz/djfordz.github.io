@@ -1,3 +1,8 @@
+---
+layout: post
+title: Fix for Lanot Attachments Magento Extension after installing Patch SUPEE-8788 
+author: David Ford
+---
 #Fix for Lanot Attachments Magento Extension post Patch SUPEE-8788.
 
 I have created a fix for Lanot Attachments Magento Extension to use Javascript Uploader instead of Flash based Uploader, this fix is needed after Magento Patch Supee-8788.
