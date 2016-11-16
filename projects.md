@@ -39,9 +39,9 @@ layout: page
 5. Liquid Templating Engine
 <br /><br /><br /><br />
 
-<a href='https://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
+<a href='http://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
-### [Brother's Homework](https://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
+### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
 
 1. HTML
 2. CSS
