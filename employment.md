@@ -3,6 +3,17 @@ title: Employment
 layout: page
 ---
 
+### Infrastructure Developer @ Magemojo LLC
+* DevOps
+    * Develop and write automation scripts in mostly PHP, Bash, and Javascript.
+    * Create critical benchmarks and metrics to ensure a high level of productivity, efficiency, and performance are met.
+    * Write blog posts, knowledge base articles, help pages explaining processes and instructions.
+    * Provide a high level of expert support to Magento eCommerce Shop Owners.
+* Troubleshoot and debug complex issues involving Magento 1 and 2.
+* Ensure Nginx configurations are optimal.
+* Profile and optimize Percona Server installations.
+* Write any and all integrations and tools needed to enhance productivity and efficiency.
+
 ### Junior Magento Developer @ Razoyo
 
 * Create complex custom modules
