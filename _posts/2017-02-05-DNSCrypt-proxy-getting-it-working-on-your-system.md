@@ -1,6 +1,6 @@
-#How to setup a Personal Resolving DNS Server with Unbound and DNSCrypt-proxy on Arch Linux.
+# How to setup a Personal Resolving DNS Server with Unbound and DNSCrypt-proxy on Arch Linux.
 
-##Note: If you find serious flaws in this configuration, please write an issue so I can research/fix it. I am still a noob when it comes to network configuration and I take security and privacy seriously, I would like to know if my configuration is flawed.
+## Note: If you find serious flaws in this configuration, please write an issue so I can research/fix it. I am still a noob when it comes to network configuration and I take security and privacy seriously, I would like to know if my configuration is flawed.
 
 On my quest for knowledge of Network Administration and Security I thought it would be fun to setup a local DNS Server to better control how I connect to the internet.
 
@@ -27,7 +27,7 @@ Arch Linux Wiki is the best wiki out there to reference for setting up just abou
 Please reference my unbound and dnscrypt conf files for an example of how to set these up.
 [My Github](https://github.com/djfordz/unbound_dns)
 
-##Important things to note.
+## Important things to note.
 
 *In `unbound.conf` any ip under `forward-zone` is used to resolv your DNS queries*
 
