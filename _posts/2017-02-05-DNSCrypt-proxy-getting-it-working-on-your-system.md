@@ -21,11 +21,15 @@ Secondly, it is very important to setup dnscrypt-proxy correctly and unbound cor
 
 Arch Linux Wiki is the best wiki out there to reference for setting up just about any type of Linux Software and I use the expertise of the Arch Linux Community to ensure I understand how things work.
 [Arch Linux Unbound Wiki](https://wiki.archlinux.org/index.php/unbound)
+
 [Arch Linux DNSCrypt-proxy Wiki](https://wiki.archlinux.org/index.php/DNSCrypt)
+
 [Arch Linux Resolv.conf Wiki](https://wiki.archlinux.org/index.php/Resolv.conf)
 
 Please reference my unbound and dnscrypt conf files for an example of how to set these up.
+
 [My Github](https://github.com/djfordz/unbound_dns)
+
 
 ## Important things to note.
 
