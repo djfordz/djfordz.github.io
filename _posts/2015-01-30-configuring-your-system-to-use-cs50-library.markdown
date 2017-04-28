@@ -3,8 +3,6 @@ title: Configuring your Linux system for Harvard's CS50 Course
 layout: post
 ---
 
-### Sometimes using the appliance isn't an option.
-
 When I first started Harvard's CS50 course, I was using a very old system which didn't have support for hardware virtualization, which in turn caused any virtual environment to be sluggish and unresponsive.  So much so, that getting any type of work on it was near impossible.  This dilemma is what led me to install and configure my base linux system to mimic the appliance when compiling C code, entailing installing the CS50 library, configuring make to use clang with the proper flags, and also configuring check50 to ensure my programs would have passing marks when submitted.  In this article, I will be discussing how I configured my base system to mimic features of the CS50 Appliance.
 
 ## Downloading, compiling, and installing the CS50 Library

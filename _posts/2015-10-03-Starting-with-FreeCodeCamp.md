@@ -3,7 +3,6 @@ title: Finding Your Way
 layout: post
 ---
 
-## From the beginning
 If you are like me, you have worked hard your entire life in a profession that hasn't really suited your abilities, your intelligence, or your personality.  You made a few choices in life that didn't necessarily bring your profession in line with your passion.  For quite a while you have been wanting to figure out a way to switch gears and head in a direction which is more aligned with your imagination, to make a living out of what you do every day for fun.  For me it is coding.  Everyday I do it for free, and I love doing it, then I used to go to work at a job that was not even remotely close to having anything to do with coding or computers or my passion.  This all changed for me about a year and a half ago.  I decided I was going to do what I loved, and I was not going to let anything stand in my way.  What had started as a hobby, turned passion, finally turned profession.  Here is how I did it.  The short version, because I spent a lot of time going around in circles.  I am going to try to lessen that pain for you.
 
 ## Decide if this is really what you want to do.

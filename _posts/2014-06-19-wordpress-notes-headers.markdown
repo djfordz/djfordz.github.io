@@ -4,8 +4,6 @@ author: David Ford
 layout: post
 ---
 
-### File Headers for Wordpress
-
 from [Wordpress Codex](http://codex.wordpress.org/File_Header)
 
 Just a few reminders for the format of Wordpress file headers needed for Wordpress to call the proper themes and plugins.

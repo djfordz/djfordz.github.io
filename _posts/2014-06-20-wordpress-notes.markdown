@@ -4,8 +4,6 @@ author: David Ford
 layout: post
 ---
 
-### A few intricacies of Wordpress
-
 First, let's go ahead and make some instructions on moving the root files to another directory or sub directory.
 
 From the [Wordpress Codex](http://codex.wordpress.org/Giving_WordPress_Its_Own_Directory)
@@ -19,6 +17,7 @@ through `Settings->Permalinks` adding the working direcotry to a custom link typ
 directory as such:
 
 You can manually redirect your visitors to the new location in the `.htaccess` file wit this code:
+
 ```
 RewriteEngine On
 RewriteCond %{HTTP_HOST} ^(www.)?YourDomain.com$

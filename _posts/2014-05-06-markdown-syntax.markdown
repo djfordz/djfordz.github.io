@@ -4,10 +4,6 @@ author: David Ford
 layout: post
 ---
 
-## The Lowdown on Markdown
-
-#### Let's begin by explaining a bit of what markdown actually is for those who are confused.
-
 Markdown is a syntax which is used to format an article for publishing on the internet, such as for a blog or website.  It simply substitutes easily type-able characters for the more tedious <abbr>HTML</abbr> tags it is designed to replace.  It then converts the markdown tags to regular <abbr>HTML</abbr> when the document is saved.  Markdown is designed to be used while the article is being written instead of the more traditional method of going back through a document and marking it up in html after its completion.  Making the whole process of formatting a document easier and more efficent.
 
 Say I wanted to make a headline for this section.  There are a few ways of doing this.  One would be using the visual editor the blogging software or word processor provides-- which deals with using the mouse and pushing a bunch of buttons--which takes time--and that time adds up...Another way is to type the actual <abbr>HTML</abbr> tags where needed.  Sure this seems easy enough if you know <abbr>HTML</abbr> but again takes quite a bit of time. Usually the formatting and prepping of an article to be published is done by an editor. However, to alleviate the need for an editor and to speed up the formatting process, markdown was created, being readily accepted by professional writers and blogging enthusiasts alike.
@@ -28,7 +24,7 @@ If publishing articles on the internet is a regular task for you, then markdown 
 
 The first place to look is [Daring Fireball's Markdown Basics](https://daringfireball.net/projects/markdown/basics) It has a great tutorial and goes indepth explaining the precepts of markdown.  Everyone probably starts here.
 
-####A few tips for writing in markdown which seemed to have worked for me are these:<&#47;h4>
+#### A few tips for writing in markdown which seemed to have worked for me are these:<&#47;h4>
 
 1.  Set up your word processor to use Markdown, and use it for everything -- school papers, essays, emails, even if it is not going to be published on the internet.  This way you are easily learning it and it becomes second nature over night.
 2. Use <strong>Reference-Style</strong> links.  It is so much easier to just type a number for each link as you are typing, then going back after finishing the section or paragraph and adding the links to your references.  Generally I will do this after each paragraph or section, thus keeping up with my links.
@@ -37,7 +33,7 @@ The first place to look is [Daring Fireball's Markdown Basics](https://daringfir
 
 ....and some reference material to get you going:
 
-#####Markdown Flavors
+##### Markdown Flavors
 
 [Github](https://help.github.com/articles/github-flavored-markdown)
 [PHP Extra](http://michelf.ca/projects/php-markdown/extra)

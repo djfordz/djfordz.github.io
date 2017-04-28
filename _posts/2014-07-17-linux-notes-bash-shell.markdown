@@ -4,8 +4,6 @@ author: David Ford
 layout: post
 ---
 
-## The PATH Variable
-
 Starting this thread off is an important one to remove duplicate entries in the PATH variable:
 
 {% highlight bash %}

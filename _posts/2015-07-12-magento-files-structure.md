@@ -3,10 +3,6 @@ layout: post
 title: Magento Module File Structure With Email Controller
 ---
 
-## File Structure for Magento Module files.
-
-#### How Magento finds out about your module
-
 * All Configuration files are merged into one file when parsed *
 
 Magento parses all XML files in this directory

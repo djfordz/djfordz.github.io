@@ -4,8 +4,6 @@ author: David Ford
 layout: post
 ---
 
-## Stay Footer, Stay
-
 So this is something I always have to google and seem to forget a little too frequently. So I am adding it to my notes. Here is a simple and easy way to keep a footer at the bottom of a apge regardless how much content is on the page from [CSS Reset](http://www.cssreset.com/how-to-keep-footer-at-bottom-of-page-with-css)
 
 Those guys have a great tutorial and explain it in depth. All I'm going to do here is add the code so I have an easy place for me to refer back to in the future.
