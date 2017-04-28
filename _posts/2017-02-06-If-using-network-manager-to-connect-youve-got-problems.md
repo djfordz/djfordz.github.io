@@ -4,8 +4,6 @@ title: If using Network Manager to connect you've got problems with security
 author: David Ford
 ---
 
-# Setting up Network Manager not to leak is a nightmare
-
 After running [Etherape](https://en.wikipedia.org/wiki/EtherApe) and [Wireshark](https://en.wikipedia.org/wiki/Wireshark) I noticed that even after hardening all my leak points, I was still having issues with my network leaking benign information.
 
 I tracked these leaks down to [Network Manager](https://en.wikipedia.org/wiki/NetworkManager), which is [Gnome's](https://en.wikipedia.org/wiki/GNOME) goto network manager.
