@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Configure Iptables and Routing for Openvpn Server"
-author: "David Ford"
+title: Configure Iptables and Routing for Openvpn Server
+author: David Ford
 tags:
 - Openvpn
 - Linux
@@ -10,7 +10,6 @@ tags:
 categories:
 - Linux
 - Openvpn
-introduction: "Configuring Iptables and Set Route for OpenVpn Server"
 ---
 
 Instead of rewriting post, I am just linking to Arash Milani's post. [How to configure iptables for openvpn](https://arashmilani.com/post?id=53).
