@@ -5,7 +5,7 @@ layout: page
 
 ### Infrastructure Developer @ Magemojo LLC
 * DevOps
-    * Develop and write automation scripts in mostly PHP, Bash, and Javascript.
+    * Develop and write automation scripts using a combination of mostly PHP and Bash.
     * Create critical benchmarks and metrics to ensure a high level of productivity, efficiency, and performance are met.
     * Write blog posts, knowledge base articles, help pages explaining processes and instructions.
     * Provide a high level of expert support to Magento eCommerce Shop Owners.
