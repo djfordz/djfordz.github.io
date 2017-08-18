@@ -3,7 +3,7 @@ title: Projects
 layout: page
 ---
 
-<h4>I have created many many plugins, deployment scripts, integrations, Magento Extensions, for a large range of Corporations, as well as create personal projects to automate my personal life. If you would like to see the code for any of the projects I contributed to, just ask. Below are a few simple projects, which showcase the many different technologies I have embraced as well as the progressive advancement of my abilities.</h4>
+<h4>I have created many many plugins, deployment scripts, integrations, Magento Extensions, for a large range of Corporations, as well as projects to automate my personal life. If you would like to see the code for any of the projects I contributed to, or coded myself, just ask. Below are a few simple projects, which showcase the many different technologies I have embraced as well as the progressive advancement of my abilities.</h4>
 
 <a href="javascript(void">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
