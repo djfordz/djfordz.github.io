@@ -5,6 +5,27 @@ layout: page
 
 <h4>A few simple projects, many more can be found at <a href="https://codepen.io/djfordz" target="_blank">codepen.io/djfordz</a></h4>
 
+<a href="javascript(void">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
+
+### Magento|Deskpro|Zabbix plugin | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
+<h6>Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically</h6>
+1. Zabbix API
+2. Deskpro API
+3. PHP OOP
+4. Magento API (extended api for Magento as well to get correct information needed) 
+5. Composer
+<br /><br /><br />
+
+<a href="javascript(void">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+
+### Cpanel Chattr Plugin | Source Code [Private (please ask me to view)]
+<h6>project is live at this time</h6>
+1. Vanilla JS
+2. Cpanel API
+3. PHP
+4. Cpanel SDK
+<br /><br /><br />
+
 <a href="javascript(void)">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 ### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
