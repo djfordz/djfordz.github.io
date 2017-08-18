@@ -5,7 +5,7 @@ layout: page
 
 <h4>I have created many many plugins, deployment scripts, integrations, Magento Extensions, for a large range of Corporations, as well as projects to automate my personal life. If you would like to see the code for any of the projects I contributed to, or coded myself, just ask. Below are a few simple projects, which showcase the many different technologies I have embraced as well as the progressive advancement of my abilities.</h4>
 
-<a href="javascript(void">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
+<a href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
 ### Magento|Deskpro|Zabbix plugin | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
 <h6>Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically</h6>
@@ -16,7 +16,7 @@ layout: page
 5. Composer
 <br /><br /><br />
 
-<a href="javascript(void">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a href="https://djfordz.com/ing/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
 ### Cpanel Chattr Plugin | Source Code Private (please ask me to view)
 <h6>project is live at this time</h6>
@@ -26,7 +26,7 @@ layout: page
 4. Cpanel SDK
 <br /><br /><br />
 
-<a href="javascript(void)">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
+<a href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 ### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 <h6>project is not live at this time</h6>
@@ -39,7 +39,7 @@ layout: page
 7. MySql
 <br /><br /><br />
 
-<a href='javascript(void)'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
+<a href='https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
 ### CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
 <h6>project is not live at this time</h6> 
