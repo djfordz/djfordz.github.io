@@ -9,7 +9,7 @@ layout: page
 
 <br /><br />
 
-<a href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
+<a class='trigger' href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
 ### Magento|Deskpro|Zabbix plugin | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
 <h6>Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically</h6>
@@ -20,7 +20,7 @@ layout: page
 5. Composer
 <br /><br /><br />
 
-<a href="http://djfordz.com/ing/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a class='trigger' href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
 ### Cpanel Chattr Plugin | Source Code Private (please ask me to view)
 <h6>project is live at this time</h6>
@@ -30,7 +30,7 @@ layout: page
 4. Cpanel SDK
 <br /><br /><br />
 
-<a href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
+<a class='trigger' href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 ### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 <h6>project is not live at this time</h6>
@@ -43,7 +43,7 @@ layout: page
 7. MySql
 <br /><br /><br />
 
-<a href='https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
+<a class='trigger' href='https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
 ### CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
 <h6>project is not live at this time</h6> 
@@ -53,7 +53,7 @@ layout: page
 4. HTML/CSS
 <br /><br /><br /><br />
 
-<a href='http://christineford.org'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
+<a href='http://christineford.org' target='_blank'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
 ### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 
@@ -64,7 +64,7 @@ layout: page
 5. Liquid Templating Engine
 <br /><br /><br /><br />
 
-<a href='http://djfordz.com/matt'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
+<a href='http://djfordz.com/matt' target='_blank'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
 ### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
 
@@ -72,4 +72,8 @@ layout: page
 2. CSS
 3. ASP/.NET C# <sup>*</sup>
 
-
+<div id="lightbox">
+    <p>Click to close</p>
+    <div id="content">
+    </div>
+</div>
