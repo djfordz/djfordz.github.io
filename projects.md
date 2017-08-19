@@ -16,7 +16,7 @@ layout: page
 5. Composer
 <br /><br /><br />
 
-<a href="https://djfordz.com/ing/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a href="http://djfordz.com/ing/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
 ### Cpanel Chattr Plugin | Source Code Private (please ask me to view)
 <h6>project is live at this time</h6>
