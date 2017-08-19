@@ -11,7 +11,7 @@ layout: page
 
 <a class='trigger' href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
-### Magento|Deskpro|Zabbix plugin | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
+#### Deskpro|Zabbix Integration | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
 <h6>Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically</h6>
 1. Zabbix API
 2. Deskpro API
@@ -22,7 +22,7 @@ layout: page
 
 <a class='trigger' href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
-### Cpanel Chattr Plugin | Source Code Private (please ask me to view)
+#### Cpanel Chattr Plugin | Source Code Private (please ask me to view)
 <h6>project is live at this time</h6>
 1. Vanilla JS
 2. Cpanel API
@@ -32,7 +32,7 @@ layout: page
 
 <a class='trigger' href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
-### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
+#### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 <h6>project is not live at this time</h6>
 1. Google Maps API
 2. Google News API
@@ -45,7 +45,7 @@ layout: page
 
 <a class='trigger' href='https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
-### CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
+#### CS50Finance | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset7)
 <h6>project is not live at this time</h6> 
 1. MySql
 2. PHP
@@ -55,7 +55,7 @@ layout: page
 
 <a href='http://christineford.org' target='_blank'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
-### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
+#### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 
 1. Jekyll
 2. HTML
@@ -66,7 +66,7 @@ layout: page
 
 <a href='http://djfordz.com/matt' target='_blank'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
-### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
+#### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
 
 1. HTML
 2. CSS
