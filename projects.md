@@ -7,6 +7,8 @@ layout: page
 
 #### I have created many many plugins, deployment scripts, integrations, Magento Extensions, for a large range of Corporations, as well as projects to automate my personal life. If you would like to see the code for any of the projects I contributed to, or coded myself, just ask. Below are a few simple projects, which showcase the many different technologies I have embraced as well as the progressive advancement of my abilities.
 
+<br /><br />
+
 <a href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
 ### Magento|Deskpro|Zabbix plugin | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
