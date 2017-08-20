@@ -21,18 +21,6 @@ layout: page
 6. Bash
 <br /><br />
 
-<a class='trigger' href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
-
-#### Deskpro|Zabbix Integration | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
-###### Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically
-1. PHP
-2. Object Oriented Design
-3. Deskpro API
-4. Zabbix API
-5. Magento API (extended api for Magento as well to get correct information needed) 
-6. Composer
-<br /><br /><br />
-
 <a class='trigger' href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
 #### Cpanel Chattr Plugin | Private
@@ -44,6 +32,18 @@ layout: page
 5. Bash
 6. Cpanel SDK
 <br /><br />
+
+<a class='trigger' href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
+
+#### Deskpro|Zabbix Integration | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
+###### Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically
+1. PHP
+2. Object Oriented Design
+3. Deskpro API
+4. Zabbix API
+5. Magento API (extended api for Magento as well to get correct information needed) 
+6. Composer
+<br /><br /><br />
 
 <a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
 
