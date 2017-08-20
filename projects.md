@@ -13,11 +13,12 @@ layout: page
 
 #### Deskpro|Zabbix Integration | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
 <h6>Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically</h6>
-1. Zabbix API
-2. Deskpro API
-3. PHP OOP
-4. Magento API (extended api for Magento as well to get correct information needed) 
-5. Composer
+1. PHP
+2. Object Oriented Design
+3. Deskpro API
+4. Zabbix API
+5. Magento API (extended api for Magento as well to get correct information needed) 
+6. Composer
 <br /><br /><br />
 
 <a class='trigger' href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
@@ -30,12 +31,20 @@ layout: page
 4. Cpanel SDK
 <br /><br /><br />
 
+<a class='trigger' href="http://djfordz/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
+
+#### Magemojo Sitecopy Script | [Source Code](https://github.com/djfordz/php_scripts/master/sitecopy)
+<h6>Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers</h6>
+1. PHP
+2. Magemojo Command Line API
+<br /><br /><br />
+
 <a class='trigger' href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 #### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 <h6>project is not live at this time</h6>
 1. Google Maps API
-2. Google News API
+2. Google News RSS 
 3. PHP
 4. Javascript.
 5. JQuery
