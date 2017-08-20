@@ -31,7 +31,7 @@ layout: page
 4. Cpanel SDK
 <br /><br /><br />
 
-<a class='trigger' href="http://djfordz/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
+<a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
 
 #### Magemojo Sitecopy Script | [Source Code](https://github.com/djfordz/php_scripts/master/sitecopy)
 <h6>Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers</h6>
