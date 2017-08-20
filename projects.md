@@ -7,6 +7,18 @@ layout: page
 
 #### I have created many many plugins, deployment scripts, integrations, Magento Extensions, for a large range of Corporations, as well as projects to automate my personal life. If you would like to see the code for any of the projects I contributed to, or coded myself, just ask. Below are a few simple projects, which showcase the many different technologies I have embraced as well as the progressive advancement of my abilities.
 
+<br /><br /><br />
+
+<a class='trigger' href="http://djfordz.com/img/whitelist.png">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
+
+#### Cpanel IP Whitelist Plugin | Source Code (Private)
+###### project in use on hundreds of cpanel servers
+1. Perl
+2. PHP
+3. Javascript
+4. Cpanel API
+5. Cpanel SDK
+6. Bash
 <br /><br />
 
 <a class='trigger' href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
@@ -25,11 +37,13 @@ layout: page
 
 #### Cpanel Chattr Plugin | Source Code Private (please ask me to view)
 <h6>project is live at this time</h6>
-1. Vanilla JS
+1. Javascript 
 2. Cpanel API
 3. PHP
-4. Cpanel SDK
-<br /><br /><br />
+4. Perl
+5. Bash
+6. Cpanel SDK
+<br /><br />
 
 <a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
 
