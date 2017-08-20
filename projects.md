@@ -37,7 +37,7 @@ layout: page
 <h6>Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers</h6>
 1. PHP
 2. Magemojo Command Line API
-<br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br />
 
 <a class='trigger' href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
