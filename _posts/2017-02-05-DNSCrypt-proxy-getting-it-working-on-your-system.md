@@ -40,7 +40,47 @@ Make the systemd files as required, using `/usr/share/dnscrypt-proxy/dnscrypt-re
 
 I have the files created in `/etc/systemd/system/` for your reference on [My Github](https://github.com/djfordz/unbound_dns)
 
-In `/etc/systemd/system/` create the socket files for your dnscrypt resolvers, the names will come from the `dnscrypt-resolvers.csv` for example, to use dnscrypt.eu-nl you would create the file `dnscrypt-proxy@dnscrypt.eu-nl` in your `/etc/systemd/system/` directory.
+Create the socket files for your dnscrypt resolvers, the names will come from the `dnscrypt-resolvers.csv` for example, to use dnscrypt.eu-nl you would create the file `dnscrypt-proxy@dnscrypt.eu-nl.socket` in your `/etc/systemd/system/` directory.
+
+These socket files will contain the following:
+ 
+*If setting up fallback dnscrpyt resolver, ensure to change the ports for each socket, as each needs to bind to its own port, so say you want to have a primary and secondary, you would create two socket files with names to each dnscrypt resolve from dnscrypt-resolvers.csv like dnscrypt-proxy@dnscrypt.eu-dk.socket and dnscrypt-proxy@dnscrypt.eu-nl.socket each would need its own unique port to bind to like below*
+
+```
+#dnscrypt-proxy@dnscrypt.eu-nl.socket
+
+[Unit]
+Description=dnscrypt-proxy listening socket
+
+[Socket]
+ListenStream=
+ListenDatagram=
+ListenStream=127.0.0.1:5353
+ListenDatagram=127.0.0.1:5353
+
+[Install]
+WantedBy=sockets.target
+```
+
+For the secondary file if you want to create a fallback
+
+```
+#dnscrypt-proxy@dnscrypt.eu-dk.socket
+
+[Unit]
+Description=dnscrypt-proxy listening socket
+
+[Socket]
+ListenStream=
+ListenDatagram=
+ListenStream=127.0.0.1:5354
+ListenDatagram=127.0.0.1:5354
+
+[Install]
+WantedBy=sockets.target
+```
+
+*Note: we use ports larger than 1000 so the system does not need root to bind and dnscrypt can be started as user, in this case user dnscrypt*
 
 You will then create `dnscrypt-proxy@.service` file in `/etc/systemd/system/` which overrides the orginal in `/usr/lib/systemd/system/`.
 
@@ -61,11 +101,11 @@ ExecStart=/usr/bin/dnscrypt-proxy --ephemeral-keys --resolver-name=%i
 Restart=always
 ```
 
-Once complete just enable and start your sockets, they will start the service themselves.
+Once complete just enable and start. On bootup the sockets will start the services automatically.
 
 ```
-systemctl enable dnscrypt-proxy@dnscrypt.eu-dk
-systemctl enable dnscrypt-proxy@dnscrypt.eu-nl
+systemctl enable dnscrypt-proxy@dnscrypt.eu-dk.socket
+systemctl enable dnscrypt-proxy@dnscrypt.eu-nl.socket
 systemctl enable unbound
 systemctl start dnscrypt-proxy@dnscrypt.eu-dk
 systemctl start dnscrypt-proxy@dnscrypt.eu-nl
