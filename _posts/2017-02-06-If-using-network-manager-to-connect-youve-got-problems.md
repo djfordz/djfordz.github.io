@@ -1,6 +1,6 @@
 ---
 layout: post
-title: If using Network Manager to connect you've got problems with security
+title: Anonymizing your MAC Address in Network Manager
 author: David Ford
 ---
 

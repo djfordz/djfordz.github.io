@@ -1,5 +1,5 @@
 ---
-title: Everything You Need to Know About Markdown Syntax
+title: If your not using Markdown, you should be
 author: David Ford
 layout: post
 ---

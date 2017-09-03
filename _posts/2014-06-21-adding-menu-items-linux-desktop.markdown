@@ -4,8 +4,6 @@ author: David Ford
 layout: post
 ---
 
-## Linux Desktop Files
-
 Basic example from the [Arch Wiki](https://wiki.archlinux.org/index.php/Desktop_Entries) 
 
 ```
