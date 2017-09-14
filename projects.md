@@ -9,9 +9,9 @@ layout: page
 
 <br />
 
-<a class='trigger' href="http://djfordz.com/img/whitelist.png">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
+<a href="https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
 
-#### Cpanel IP Whitelist Plugin | Private
+#### Cpanel IP Whitelist Plugin | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
 ###### Allows Cpanel users to add IP's to hosts.allow safely through a GUI, without need to grant sudo privileges.
 1. Perl
 2. PHP
@@ -21,9 +21,9 @@ layout: page
 6. Bash
 <br /><br />
 
-<a class='trigger' href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a href="https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
-#### Cpanel Chattr Plugin | Private
+#### Cpanel Chattr Plugin | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
 ###### Allows Cpanel users to make files safely immutable through a GUI without need to grant sudo privileges.
 1. Javascript 
 2. Cpanel API
@@ -33,7 +33,7 @@ layout: page
 6. Cpanel SDK
 <br /><br />
 
-<a class='trigger' href="http://djfordz.com/img/deskpro.png">![Cpanel Chattr Plugin]({{ '/img/deskpro.png' | prepend: site.url }})</a>
+<a class='trigger' href="http://djfordz.com/img/deskpro.png">![Deskpro|Zabbix|Magento Integration]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
 #### Deskpro|Zabbix Integration | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
 ###### Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically
@@ -53,7 +53,7 @@ layout: page
 2. Magemojo Command Line API
 <br /><br /><br /><br /><br /><br /><br />
 
-<a class='trigger' href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
+<a href="http://mefu.ninja">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 #### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 ###### Shows crime map and news sources in any area in the United States
