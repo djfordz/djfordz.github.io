@@ -9,7 +9,7 @@ layout: page
 
 <br />
 
-<a href="https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
+<a href="https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin" target="_blank">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
 
 #### Cpanel IP Whitelist Plugin | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
 ###### Allows Cpanel users to add IP's to hosts.allow safely through a GUI, without need to grant sudo privileges.
@@ -21,7 +21,7 @@ layout: page
 6. Bash
 <br /><br />
 
-<a href="https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a href="https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin" target="_blank">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
 #### Cpanel Chattr Plugin | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
 ###### Allows Cpanel users to make files safely immutable through a GUI without need to grant sudo privileges.
@@ -53,7 +53,7 @@ layout: page
 2. Magemojo Command Line API
 <br /><br /><br /><br /><br /><br /><br />
 
-<a href="http://mefu.ninja">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
+<a href="http://mefu.ninja" target="_blank">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 #### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 ###### Shows crime map and news sources in any area in the United States
