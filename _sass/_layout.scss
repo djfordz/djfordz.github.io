@@ -78,12 +78,10 @@
     h3 {
         margin-bottom: $spacing-unit /2;
         padding-bottom: 0;
-        text-align: center;
     }
     h4 {
         margin-bottom: $spacing-unit /2;
         padding-bottom: 0;
-        text-align: center;
     }
 }
 .page-content {
@@ -205,10 +203,17 @@
 
 
 .page-center {
-    width: 90%;
-    margin: 0 auto 20px auto;
+    width: 100%;
+    margin: 0 auto 0 auto;
     display: block;
+    h3 {
+        text-align: center;
+    }
+    h4 {
+        text-align: center;
+    }
 }
+
 .img-holder {
     margin: 0 auto 0 auto;
     width: 350px;
@@ -221,10 +226,17 @@
     display: block;
     width: 100%;
 }
+
 .img-logo-landing img {
     display: block;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 0 auto;
 }
+
+.img-bottom-landing img {
+    display: block;
+    margin: 40px auto 40px auto;
+}
+
 .img-landing {
     display: block;
     max-width: 675px;
