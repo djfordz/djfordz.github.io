@@ -9,7 +9,7 @@ layout: page
 
 <br />
 
-<a class="trigger" href="http://djfordz.com/whitelist.png">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
+<a class="trigger" href="{{ '/img/whitelist.png' | prepend: site.url }}">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
 
 #### [Cpanel IP Whitelist Plugin](https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin) | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
 ###### Allows Cpanel users to add IP's to hosts.allow safely through a GUI, without need to grant sudo privileges.
@@ -21,7 +21,7 @@ layout: page
 6. Bash
 <br /><br />
 
-<a class="trigger" href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a class="trigger" href="{{ '/img/nemj_chattr.png' | prepend: site.url }}">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
 #### [Cpanel Chattr Plugin](https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin) | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
 ###### Allows Cpanel users to make files safely immutable through a GUI without need to grant sudo privileges.
@@ -33,7 +33,7 @@ layout: page
 6. Cpanel SDK
 <br /><br />
 
-<a class='trigger' href="http://djfordz.com/img/deskpro.png">![Deskpro|Zabbix|Magento Integration]({{ '/img/deskpro.png' | prepend: site.url }})</a>
+<a class='trigger' href="{{ '/img/deskpro.png' | prepend: site.url }}">![Deskpro|Zabbix|Magento Integration]({{ '/img/deskpro.png' | prepend: site.url }})</a>
 
 #### Deskpro|Zabbix Integration | [Source code](https://github.com/djfordz/Deskpro_ZabbixAlerts/)
 ###### Allows Deskpro to automatically send support tickets to customers from Zabbix Triggers automatically
@@ -68,7 +68,7 @@ layout: page
 4. HTML/CSS
 <br /><br /><br /><br />
 
-<a class="trigger" href='http://djfordz.com/img/momsite.png'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
+<a class="trigger" href="{{ '/img/momsite.png' | prepend: site.url }}">![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
 #### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 ###### Simple site written for my mother
@@ -79,7 +79,7 @@ layout: page
 5. Liquid Templating Engine
 <br /><br /><br /><br />
 
-<a class="trigger" href='http://djfordz.com/img/mattsite.png'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
+<a class="trigger" href="{{ '/img/mattsite.png' | prepend: site.url }}">![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
 #### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
 ###### Site I wrote to help my Brother
@@ -88,7 +88,7 @@ layout: page
 3. ASP/.NET C# <sup>*</sup>
 <br /><br /><br /><br /><br />
 
-<a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
+<a class='trigger' href="{{ '/img/sitecopy.png' | prepend: site.url }}">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
 
 #### Magemojo Sitecopy Script | [Source Code](https://github.com/djfordz/php_scripts/master/sitecopy)
 ###### Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers
