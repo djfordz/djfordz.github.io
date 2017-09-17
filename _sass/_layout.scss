@@ -78,6 +78,12 @@
     h3 {
         margin-bottom: $spacing-unit /2;
         padding-bottom: 0;
+        text-align: center;
+    }
+    h4 {
+        margin-bottom: $spacing-unit /2;
+        padding-bottom: 0;
+        text-align: center;
     }
 }
 .page-content {
@@ -179,24 +185,24 @@
 .masthead {
     display: block;
     margin: 0 auto 0 auto;
-    text-align: center;
+    h1 {
+        font-size: 2em;
+        margin-top: 4%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    blockquote {
+        border: none;
+        padding: none;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    
 }
 
-.masthead h1 {
-    font-size: 1.5em;
-    margin-top: 4%;
-    margin-bottom: 20px;
-}
-
-.masthead blockquote {
-    border: none;
-    padding: none;
-    font-size: 1.3em;
-}
-
-.masthead h2 {
-    font-size: 1.3em;
-}
 
 .page-center {
     width: 90%;
