@@ -86,7 +86,7 @@ layout: page
 1. HTML
 2. CSS
 3. ASP/.NET C# <sup>*</sup>
-<br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br />
 
 <a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
 
