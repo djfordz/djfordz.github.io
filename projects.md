@@ -45,14 +45,6 @@ layout: page
 6. Composer
 <br /><br /><br />
 
-<a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
-
-#### Magemojo Sitecopy Script | [Source Code](https://github.com/djfordz/php_scripts/master/sitecopy)
-###### Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers
-1. PHP
-2. Magemojo Command Line API
-<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-
 <a href="http://mefu.ninja" target="_blank">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
 #### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
@@ -95,8 +87,17 @@ layout: page
 2. CSS
 3. ASP/.NET C# <sup>*</sup>
 
+<a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
+
+#### Magemojo Sitecopy Script | [Source Code](https://github.com/djfordz/php_scripts/master/sitecopy)
+###### Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers
+1. PHP
+2. Magemojo Command Line API
+<br /><br /><br /><br />
+
 <div id="lightbox">
     <p>Click to close</p>
     <div id="content">
     </div>
 </div>
+
