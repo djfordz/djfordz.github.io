@@ -11,7 +11,7 @@ layout: page
 
 <a class="trigger" href="{{ '/img/whitelist.png' | prepend: site.url }}">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
 
-#### [Cpanel IP Whitelist Plugin](https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin) | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
+#### <a href="https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin" target="_blank">Cpanel IP Whitelist Plugin</a> | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
 ###### Allows Cpanel users to add IP's to hosts.allow safely through a GUI, without need to grant sudo privileges.
 1. Perl
 2. PHP
@@ -23,7 +23,7 @@ layout: page
 
 <a class="trigger" href="{{ '/img/nemj_chattr.png' | prepend: site.url }}">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
-#### [Cpanel Chattr Plugin](https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin) | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
+#### <a href="https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin" target="_blank">Cpanel Chattr Plugin</a> | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
 ###### Allows Cpanel users to make files safely immutable through a GUI without need to grant sudo privileges.
 1. Javascript 
 2. Cpanel API
@@ -47,7 +47,7 @@ layout: page
 
 <a class="trigger" href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
-#### [True Crime!](http://mefu.ninja) | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
+#### <a href="http://mefu.ninja" target="_blank">True Crime Map</a> | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 ###### Shows crime map and news sources in any area in the United States
 1. Google Maps API
 2. Google News RSS 
@@ -70,7 +70,7 @@ layout: page
 
 <a class="trigger" href="{{ '/img/momsite.png' | prepend: site.url }}">![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
-#### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
+#### <a href="http://christineford.org" target="_blank">For Mom, With Love.</a> | [Source Code](https://github.com/djfordz/christineford.org)
 ###### Simple site written for my mother
 1. Jekyll
 2. HTML
@@ -81,7 +81,7 @@ layout: page
 
 <a class="trigger" href="{{ '/img/mattsite.png' | prepend: site.url }}">![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
-#### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
+#### <a href="http://djfordz.com/matt" target="_blank">Brother's University Homework</a> | [Source Code](https://github.com/djfordz/matt)
 ###### Site I wrote to help my Brother
 1. HTML
 2. CSS
