@@ -43,7 +43,7 @@ layout: page
 4. Zabbix API
 5. Magento API (extended api for Magento as well to get correct information needed) 
 6. Composer
-<br /><br /><br />
+<br /><br />
 
 <a href="http://mefu.ninja" target="_blank">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
@@ -56,7 +56,7 @@ layout: page
 5. JQuery
 6. Twitter TypeAhead.js
 7. MySql
-<br /><br /><br />
+<br /><br />
 
 <a class='trigger' href='https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png'>![Sell!](https://cloud.githubusercontent.com/assets/5413221/8270529/b2f24ea2-17a7-11e5-95ec-4f192f04e558.png)</a>
 
@@ -86,7 +86,6 @@ layout: page
 1. HTML
 2. CSS
 3. ASP/.NET C# <sup>*</sup>
-
 <br /><br /><br /><br /><br /><br />
 
 <a class='trigger' href="http://djfordz.com/img/sitecopy.png">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
@@ -95,7 +94,7 @@ layout: page
 ###### Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers
 1. PHP
 2. Magemojo Command Line API
-<br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br />
 
 <div id="lightbox">
     <p>Click to close</p>
