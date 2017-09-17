@@ -7,7 +7,7 @@ layout: page
 
 > Lifelong Learner, these are only a few of the many classes I have taken from [edX.org](https://edX.org) and [MIT Opencourseware](https://ocw.mit.edu/index.htm)
 
-> I have found the classes at for-profit Universities to be extremely substandard, cost prohibitive, and simply a scam. Taking classes online from prestigious universities such as Harvard, MIT, and UBC, has proven to be challenging, rewarding, highly educational, and quite frankly standards above any other form of education besides obviously attending the universities in person.  The prestigous online university courses are amazing and provide so much more over any of the for-profit universities I have attended, all without becoming indentured to financial institutions.
+*I have found the classes at for-profit Universities to be extremely substandard, cost prohibitive, and simply a scam. Taking classes online from prestigious universities such as Harvard, MIT, and UBC, has proven to be challenging, rewarding, highly educational, and quite frankly standards above any other form of education besides obviously attending the universities in person.  The prestigous online university courses are amazing and provide so much more over any of the for-profit universities I have attended, all without becoming indentured to financial institutions.*
 
 ### [Magento University Magento Backend Development](https://u.magento.com/)
 
