@@ -10,8 +10,8 @@ layout: page
     * Write blog posts, knowledge base articles, help pages explaining processes and instructions.
     * Provide a high level of expert support to Magento eCommerce Shop Owners.
 * Troubleshoot and debug complex issues involving Magento 1 and 2.
-* Ensure Nginx configurations are optimal.
-* Profile and optimize Percona Server installations.
+* Ensure server configurations are optimal.
+* Profile and optimize Percona Mysql Server installations.
 * Write any and all integrations and tools needed to enhance productivity and efficiency.
 
 ### Junior Magento Developer @ Razoyo
