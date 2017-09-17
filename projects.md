@@ -9,9 +9,9 @@ layout: page
 
 <br />
 
-<a href="https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin" target="_blank">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
+<a class="trigger" href="http://djfordz.com/whitelist.png">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
 
-#### Cpanel IP Whitelist Plugin | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
+#### [Cpanel IP Whitelist Plugin](https://applications.cpanel.net/listings/view/SSH-Whitelist-Plugin) | [Source Code](https://github.com/djfordz/cpanel_ssh_whitelist)
 ###### Allows Cpanel users to add IP's to hosts.allow safely through a GUI, without need to grant sudo privileges.
 1. Perl
 2. PHP
@@ -21,9 +21,9 @@ layout: page
 6. Bash
 <br /><br />
 
-<a href="https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin" target="_blank">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
+<a class="trigger" href="http://djfordz.com/img/nemj_chattr.png">![Cpanel Chattr Plugin]({{ '/img/nemj_chattr.png' | prepend: site.url }})</a>
 
-#### Cpanel Chattr Plugin | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
+#### [Cpanel Chattr Plugin](https://applications.cpanel.net/listings/view/Cpanel-Lock-Files-Chattr-Plugin) | [Source Code](https://github.com/djfordz/cpanel_chattr_plugin)
 ###### Allows Cpanel users to make files safely immutable through a GUI without need to grant sudo privileges.
 1. Javascript 
 2. Cpanel API
@@ -45,9 +45,9 @@ layout: page
 6. Composer
 <br /><br />
 
-<a href="http://mefu.ninja" target="_blank">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
+<a class="trigger" href="https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
-#### True Crime! | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
+#### [True Crime!](http://mefu.ninja) | [Source Code](https://github.com/djfordz/cs50_psets/tree/master/pset8)
 ###### Shows crime map and news sources in any area in the United States
 1. Google Maps API
 2. Google News RSS 
@@ -68,7 +68,7 @@ layout: page
 4. HTML/CSS
 <br /><br /><br /><br />
 
-<a href='http://christineford.org' target='_blank'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
+<a class="trigger" href='http://djfordz.com/img/momsite.png'>![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
 #### [For Mom, With Love](http://christineford.org) | [Source Code](https://github.com/djfordz/christineford.org)
 ###### Simple site written for my mother
@@ -79,7 +79,7 @@ layout: page
 5. Liquid Templating Engine
 <br /><br /><br /><br />
 
-<a href='http://djfordz.com/matt' target='_blank'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
+<a class="trigger" href='http://djfordz.com/img/mattsite.png'>![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
 #### [Brother's Homework](http://djfordz.com/matt) | [Source Code](https://github.com/djfordz/matt)
 ###### Site I wrote to help my Brother
