@@ -8,6 +8,8 @@ tags: [me]
 
 >Team-Oriented, Highly-Motivated, Experienced Programmer ready to take on the challenge of engineering dynamic solutions to the World's problems.
 
+<br /><br />
+
 With what started as a hobby--turned passion, is occasionally intimidating, yet powerfully and profoundly rewarding, especially for someone such as myself, who is unrelenting in the pursuit of solutions, answers, and knowledge.
 
 After 4 years of education, I started coding professionally over 2 years ago, expanding my experience and knowledge exponentially. I love programming, to me it isn't hyperbol or jumping on the band wagon, I absolutely love solving puzzles in a logical and creative fashion. Programming is art, it is an amazing expression of one's internal thoughts and creative talent.
