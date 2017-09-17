@@ -27,13 +27,13 @@ header.sticky {
        width: 36px;
        height: 26px;
        line-height: 0;
-       padding-top: 14px;
+       padding-top: 10px;
        text-align: center;
        > svg {
            width: 18px;
            height: 15px;
            path {
-               fill: $grey-color;
+               fill: $brand-color;
            }
        }
     }
