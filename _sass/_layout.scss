@@ -24,7 +24,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: #f2f2f2;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
@@ -216,7 +216,7 @@
 }
 .img-landing {
     display: block;
-    width: 100%;
+    width: 90%;
     margin: 10px auto 10px auto;
 }
 
