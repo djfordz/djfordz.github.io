@@ -51,7 +51,7 @@ layout: page
 ###### Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers
 1. PHP
 2. Magemojo Command Line API
-<br /><br /><br /><br /><br /><br /><br />
+<br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
 
 <a href="http://mefu.ninja" target="_blank">![crime map](https://cloud.githubusercontent.com/assets/5413221/8270533/ccc4d2b4-17a7-11e5-9d87-a55cc8e877d6.png)</a>
 
