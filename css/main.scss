@@ -4,49 +4,37 @@
 @charset "utf-8";
 
 @font-face {
-    font-family: "Dosis";
-    src: url(../fonts/Dosis/Dosis-Regular.ttf);
+    font-family: "Slabo";
+    src: url(../fonts/Slabo_27px/Slabo27px-Regular.ttf);
     font-weight: normal;
     font-style: normal;
 }
 @font-face {
-    font-family: "Dosis";
-    src: url(../fonts/Dosis/Dosis-Bold.ttf);
+    font-family: "Anonymous Pro";
+    src: url(../fonts/Anonymous_Pro/AnonymousPro-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Anonymous Pro";
+    src: url(../fonts/Anonymous_Pro/AnonymousPro-Bold.ttf);
     font-weight: bold;
     font-style: normal;
 }
 @font-face {
-    font-family: "Dosis";
-    src: url(../fonts/Dosis/Dosis-Regular.ttf);
-    font-weight: normal;
-    font-style: italic;
-}
-@font-face {
-    font-family: "Raleway";
-    src: url(../fonts/Raleway/Raleway-Regular.ttf);
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Raleway";
-    src: url(../fonts/Raleway/Raleway-Bold.ttf);
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
-    font-family: "Railway";
-    src: url(../fonts/Raleway/Railway-Regular.ttf);
+    font-family: "Anomymous Pro";
+    src: url(../fonts/Anonymous_Pro/AnonymousPro-Italic.ttf);
     font-weight: normal;
     font-style: italic;
 }
 
 // Our variables
-$base-font-family: "Raleway", Helvetica, sans-serif;
+$base-font-family: "Anonymous Pro", Helvetica, sans-serif;
 $base-font-size:   14pt;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5em;
-$title-font-family: "Dosis", Helvetica, sans-serif;
-$primary-font-family: "Raleway", Helvetica, sans-serif;
+$title-font-family: "Slabo", Helvetica, sans-serif;
+$primary-font-family: "Anonymous Pro", Helvetica, sans-serif;
 $spacing-unit:     20px;
 
 $text-color:        #212121;
