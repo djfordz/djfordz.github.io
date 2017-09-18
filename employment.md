@@ -3,6 +3,10 @@ title: Employment
 layout: page
 ---
 
+# Employment
+
+## [Download Resume]({{ '/assets/resume_programmer.pdf' | prepend: site.url }})
+
 ### Infrastructure Developer @ Magemojo LLC
 * DevOps
     * Develop and write automation scripts using a combination of mostly PHP and Bash.
