@@ -5,7 +5,7 @@ layout: page
 
 # Employment
 
-## [Download Resume]({{ '/assets/resume_programmer.pdf' | prepend: site.url }})
+#### [Download Resume]({{ '/assets/resume-programmer.pdf' | prepend: site.url }})
 
 ### Infrastructure Developer @ Magemojo LLC
 * DevOps
