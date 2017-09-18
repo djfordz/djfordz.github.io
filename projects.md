@@ -7,6 +7,8 @@ layout: page
 
 #### I have created many many plugins, deployment scripts, integrations, Magento Extensions, for a large range of Corporations, as well as projects to automate my personal life. If you would like to see the code for any of the projects I contributed to, or coded myself, just ask. Below are a few simple projects, which showcase the many different technologies I have embraced as well as the progressive advancement of my abilities.
 
+#### Visit me on <a href="https://github.com/djfordz" target="_blank">Github</a>
+
 <br />
 
 <a class="trigger" href="{{ '/img/whitelist.png' | prepend: site.url }}">![Cpanel Whitelist Plugin]({{ '/img/whitelist.png' | prepend: site.url }})</a>
