@@ -23,7 +23,7 @@ layout: page
 
 ### [edX.org UBCx MicroMasters Software Development](https://www.edx.org/micromasters/software-development)
 
-* Current Status: Auditing, will begin full course November 1, 2017
+* Current Status: Auditing
 * Language: Java 
 * Number of Courses: 6
 * Accreditation: Accredited University of British Columbia
