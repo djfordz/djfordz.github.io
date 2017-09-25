@@ -68,7 +68,7 @@ Below are just a few simple personal projects. Most of my work code is private.
 2. PHP
 3. Bootstrap
 4. HTML/CSS
-<br /><br /><br /><br />
+<br /><br />
 
 <a class="trigger" href="{{ '/img/momsite.png' | prepend: site.url }}">![Artistic Flair]({{ '/img/momsite.png' | prepend: site.url }})</a>
 
@@ -79,7 +79,7 @@ Below are just a few simple personal projects. Most of my work code is private.
 3. CSS
 4. Mustache
 5. Liquid Templating Engine
-<br /><br /><br /><br />
+<br /><br />
 
 <a class="trigger" href="{{ '/img/mattsite.png' | prepend: site.url }}">![Simple and Brilliant]({{ '/img/mattsite.png' | prepend: site.url }})</a>
 
@@ -88,7 +88,7 @@ Below are just a few simple personal projects. Most of my work code is private.
 1. HTML
 2. CSS
 3. ASP/.NET C# <sup>*</sup>
-<br /><br /><br /><br /><br />
+<br /><br />
 
 <a class='trigger' href="{{ '/img/sitecopy.png' | prepend: site.url }}">![Magemojo Sitecopy]({{ '/img/sitecopy.png' | prepend: site.url }})</a>
 
@@ -96,7 +96,7 @@ Below are just a few simple personal projects. Most of my work code is private.
 ###### Scipt to make Magento 1 & 2 dev copies from live site on Magemojo servers
 1. PHP
 2. Magemojo Command Line API
-<br /><br /><br /><br /><br /><br />
+<br /><br />
 
 <div id="lightbox">
     <p>Click to close</p>
