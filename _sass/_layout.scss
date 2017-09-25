@@ -90,6 +90,8 @@
 .page-content {
     padding-top: $spacing-unit / 2;
     padding-bottom: 0;
+    margin-left: $spacing-unit;
+    margin-right: $spacing-unit;
     h1 {
         margin-bottom: $spacing-unit / 2;
         padding-bottom: 0;
@@ -99,6 +101,10 @@
         padding-bottom: 0;
         color: $brand-color;
     }
+}
+
+.page-content blockquote {
+    margin-top: $spacing-unit;
 }
 
 .page-heading {
@@ -219,12 +225,13 @@
 
 .img-holder {
     margin: 0 auto 0 auto;
-    width: 350px;
-    height: 350px;
+    max-width: 350px;
     display: block;
 }
 
 .img-holder img {
+    margin: 0 auto 0 auto;
+    width: 245px;
     border-radius: 50%;
     display: block;
     width: 100%;
@@ -280,12 +287,12 @@ table {
 .margin-bottom {
     margin-bottom: 4em;
 }
-.page-content img {
+/*.page-content img {
     display: inline-block;
     width: 400px;
     margin: 10px 5px 30px 5px;
     float: right;
-}
+}*/
 
 @media
 only screen and (max-width: 760px),
