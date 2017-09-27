@@ -1,17 +1,65 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{{ site.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="cache-control" content="public, max-age=28800">
-    <link rel="stylesheet" href="{{ '/css/main.css' | prepend: site.url }}">
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url | prepend: site.url }}">
-    <link rel="shortcut icon" type="/image/png" href="{{ '/favicon.png?v=1' | prepend: site.url }}">
-    <link rel="apple-touch-icon" type="/image/png" href="{{ '/favicon.png' | prepend: site.url }}">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <!-- Google Authorship Markup -->
+    <link rel="author" href="https://plus.google.com/+{{site.gplus_username}}?rel=author">
+
+    <!-- Social: Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@{{site.twitter_username}}">
+    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    <meta name="twitter:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    {% if page.image %}
+    <meta property="twitter:image:src" content="{{ site.url }}{{ site.baseurl }}{{page.image }}">
+    {% else %}
+    <meta property="twitter:image:src" content="{{ "/img/df_logo.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+
+    <!-- Social: Facebook / Open Graph -->
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{page.image }}">
+    {% else %}
+    <meta property="og:image" content="{{ "/img/df_logo.png" | prepend: site.baseurl | prepend: site.url }}">
+    {% endif %}
+    <meta property="og:description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta property="og:site_name" content="{{ site.title }}">
+
+    <!-- Social: Google+ / Schema.org  -->
+    <meta itemprop="name" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"/>
+    <meta itemprop="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta itemprop="image" content="{{ "/img/df_logo.png" | prepend: site.baseurl | prepend: site.url }}"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="{{site.baseurl}}/assets/img/icons/favicon.png" type="image/png" />
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="/assets/img/icons/apple-touch-icon-ipad-76x76.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/img/icons/apple-touch-icon-iphone-60x60.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/img/icons/apple-touch-icon-ipad-76x76.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/img/icons/apple-touch-icon-ipad-retina-152x152.png" />
+    <!-- Windows 8 Tile Icons -->
+    <meta name="application-name" content="{{site.username}} Blog">
+    <meta name="msapplication-TileColor" content="#0562DC">
+    <meta name="msapplication-square70x70logo" content="smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="widetile.png" />
+    <meta name="msapplication-square310x310logo" content="largetile.png" />
+    <!-- Android Lolipop Theme Color -->
+    <meta name="theme-color" content="{{ page.color }}">
+
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
     <script src="{{'/bower_components/jquery/dist/jquery.min.js' | prepend: site.url }}"></script>
     <script src="{{'/bower_components/aterrien/jQuery-Knob/dist/jquery.knob.min.js' | prepend: site.url }}"></script>
     <script src="{{ '/assets/main.js' | prepend: site.url }}"></script>
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+<
     
 
     <!-- facebook meta -->
@@ -19,16 +67,5 @@
     <meta property="og:type"               content="website" />
     <meta property="og:title"              content="{{site.title}}" />
     <meta property="og:description"        content="{{site.description}}" />
-    <meta property="og:image"              content="{{'/img/fun.png' | prepend: site.url}}" />
-    <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-                  (i[r].q=i[r].q||[]).push(arguments)
-          },i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-68326402-1', 'auto');
-          ga('send', 'pageview');
-
-    </script>
+    <meta property="og:image"              content="{{'/img/df_logo.png' | prepend: site.url}}" />
 </head>
