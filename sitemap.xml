@@ -4,120 +4,156 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
 <url>
-  <loc>http://dfordz.com/</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/</loc>
+  <lastmod>2017-09-27T10:23:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/about.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/about.html</loc>
+  <lastmod>2017-09-27T10:23:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/education.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/education.html</loc>
+  <lastmod>2017-09-27T10:23:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/employment.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/employment.html</loc>
+  <lastmod>2017-09-27T10:23:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/posts.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/posts.html</loc>
+  <lastmod>2017-09-27T10:23:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/projects.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/projects.html</loc>
+  <lastmod>2017-09-27T10:23:22+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/2015/06/09/after-magento-install-on-local-server-cannot-log-into-backend.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/assets/resume_programmer.pdf</loc>
+  <lastmod>2017-09-27T10:23:08+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/2015/01/30/configuring-your-system-to-use-cs50-library.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2017/09/10/asus-f555ua-audio-issues-mic-does-not-work.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/2014/12/26/CSS-Hacks.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/linux/openvpn/2017/04/27/configuring-iptables-and-routing-for-openvn-server.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/programming,/development/2014/12/18/ruby-is-not-for-me.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2017/02/06/If-using-network-manager-to-connect-youve-got-problems.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/c,/programming,/bitwise/2014/09/30/coding-notes.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2017/02/05/DNSCrypt-proxy-getting-it-working-on-your-system.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/notes,/html/2014/07/29/keeping-footer-bottom-page.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2016/11/16/fix-for-lanot-attachments-magento-extension-patch-8788.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/linux,/bash,/notes/2014/07/17/linux-notes-bash-shell.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2015/01/30/configuring-your-system-to-use-cs50-library.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/markdown,/rant/2014/07/06/md-markdown-love-hate-much.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2014/12/26/CSS-Hacks.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/linux,/notes,/xfce4/2014/06/21/adding-menu-items-linux-desktop.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2014/09/30/coding-notes.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/wordpress,/notes,/2014/06/20/wordpress-notes.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2014/07/29/keeping-footer-bottom-page.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/wordpress,/notes/2014/06/19/wordpress-notes-headers.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/2014/05/06/markdown-syntax.html</loc>
+  <lastmod>2017-09-27T10:23:23+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/job,/resume,/cv/2014/05/26/curriculum-vitae-david-ford.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/matt/</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/notes,/coding/2014/05/25/wordpress-local-install-trick.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/matt/index.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/linux,/arch,/notes,/xfce4/2014/05/25/look-linux-desktop-environments.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/matt/ambition.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/notes,/wordpress/2014/05/08/wordpress-child-themes-absolute-beginner-part-one.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/matt/team.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/markdown/2014/05/06/markdown-syntax.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/matt/tables.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>http://dfordz.com/markdown/2014/05/02/introduction.html</loc>
-  <lastmod>2015-06-30T15:38:19+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://djfordz.com/matt/humor.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://djfordz.com/matt/email.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://djfordz.com/matt/winner.html</loc>
+  <lastmod>2016-05-28T12:24:50+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
 </url>
 </urlset>
