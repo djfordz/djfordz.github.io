@@ -2,11 +2,9 @@ var img = document.querySelectorAll('a');
 var lightbox = document.getElementById('lightbox');
 var content = document.getElementById('content');
 img.forEach(function(el) {
-    console.log(el);
     if (el.className === 'trigger') {
         el.addEventListener('click', function(event) {
         event.preventDefault();
-        console.log(this);
         var image_href = this.getAttribute('href');
         var image = document.createElement('img');
         var link = document.createElement('a');

@@ -12,8 +12,8 @@ category:
 - Career
 ---
 
-<img src="img/learning_path.jpg" alt="Learning Path" />
-<blockquote>Learning Path — ensure it is straight with milestones.</blockquote>
+![Learning Path](img/learning_path.jpg)
+> Learning Path — ensure it is straight with milestones.
 
 # Decision time — Follow your passion, life is too short not to.
 
@@ -23,7 +23,7 @@ For quite a while you have been wanting to figure out a way to switch gears and 
 
 This all changed for me about a year and a half ago. I decided I was going to do what I loved, and I was not going to let anything stand in my way. What had started as a hobby, turned passion, finally turned profession. Here is how I did it. The short version, because I spent a lot of time going around in circles. I am going to try to lessen that pain for you.
 
-<img src="img/commit1.jpg" alt="commitment" />
+![commitment](img/commit1.jpg)
 > Make a commitment — write it down, create a plan, schedule the time, create goals, follow through.
 
 # Make a firm commitment to yourself — thousands of hours of your life will be towards learning and practising this single skill and hundreds of thousand more hours afterwards.
@@ -32,7 +32,7 @@ Nothing is worse than deciding to enter a profession, spend the time and resourc
 
 With this said, be careful in believing in the hype. You will most likely not make a million dollars your first year. You will most likely not have a Unicorn the very first site you build. You probably won’t even make over fifteen dollars an hour at your first job. If you really do not like spending hours coding just for the fun of it, most likely you will not succeed in this profession.
 
-<img src="img/hype1.jpg" alt="hype" />
+![hype](img/hype1.jpg)
 > Learning to code as a hobby is fine, but unless it is your passion, you should not do it professionally. You should be following your passion, whether it is dancing, drawing, writing, flying, mechanics, etc.
 
 ## Don’t Fall For The Hype!
@@ -41,7 +41,7 @@ If you do not absolutely love figuring out puzzles, enjoy spending hours staring
 
 On the other hand, the reward for hard work, intense thinking, thousands of hours of practice, constant study, is an intense sense of accomplishment and a transcendental feeling of well-being when something which seemed impossible is accomplished. That feeling alone is addictive. Coding and development isn’t for everyone, even though everyone thinks it is. Let me be the first to tell you developing professionally, with deadlines, bosses, accountability is completely different than doing it as a hobby. So you better really think about it, and really really like doing it, if you plan on doing it professionally.
 
-<img src="img/milestone_path.png" alt="milestones" />
+![milestones](img/milestone_path.png)
 > Decision, Commitment, Perseverance, Attitude
 
 ### Now, off the soapbox, and onto great learning…
