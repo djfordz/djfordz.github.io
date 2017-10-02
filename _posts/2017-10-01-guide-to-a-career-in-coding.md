@@ -37,7 +37,7 @@ With this said, be careful in believing in the hype. You will most likely not ma
 
 ## Don’t Fall For The Hype!
 
-If you do not absolutely love figuring out puzzles, enjoy spending hours staring at the computer screen thinking intensely of ways to make something to work. If you can’t handle failure, or people constantly being a heck of a lot smarter than you, or if you can’ handle pure and utter destruction of the ego then this business is probably not for you.
+If you do not absolutely love figuring out puzzles, enjoy spending hours staring at the computer screen thinking intensely of ways of making something work, if you can’t handle failure, or people constantly being a heck of a lot smarter than you, or if you can’t handle pure and utter destruction of the ego, then this business is probably not for you.
 
 On the other hand, the reward for hard work, intense thinking, thousands of hours of practice, constant study, is an intense sense of accomplishment and a transcendental feeling of well-being when something which seemed impossible is accomplished. That feeling alone is addictive. Coding and development isn’t for everyone, even though everyone thinks it is. Let me be the first to tell you developing professionally, with deadlines, bosses, accountability is completely different than doing it as a hobby. So you better really think about it, and really really like doing it, if you plan on doing it professionally.
 
@@ -51,7 +51,7 @@ Pointers to get you started.
 1. Create a learning path with objectives. This is invaluable in keeping with a schedule and realizing goals.
 2. Narrow down your path. Pick a language, pick a career you are shooting for, such as frontend, backend, systems programming, Windows or Linux, etc. The more narrow and focused the better. You cannot learn everything, at the beginning it is better to be really, really good at a single technology than multiple, you are trying to learn the core skills of a programmer that are language independant, languages will come later.
 3. Schedule specific times to study and ensure you adhere to the schedule. At least 2–4 hours daily is needed.
-4. Keep notes…just like high school, notes are invaluable an tool for cementing concepts.
+4. Keep notes…just like high school, notes are an invaluable tool for cementing concepts.
 5. Find a study group. Although not necessary, I hear it is a practical way. I am a severe introvert so I never did this, but for many it is a great motivator.
 6. Contribute to Open Source Projects as soon as you are able.Having your name on professional code that has been accepted into an open source project is the most invaluable thing you can do. Employers do dissect your code before they contact you.
 7. Create. Create. Create. The more personal projects you have and the increasing complexity of those projects are very very important. As Linus Torvalds once said — Talk is cheap, show me the code!
