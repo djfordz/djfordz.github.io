@@ -2,7 +2,7 @@
 layout: post
 title: "Run your own dnscrypt server: How to install dnscrypt-wrapper on an Arch Linux VPS"
 date: 2017-10-22 11:39:25
-image: '/assets/img/'
+image: '/assets/img/dnscrypt.png'
 description: 'Run your own dnscrypt server'
 tags:
 - dnscrypt-wrapper
@@ -12,6 +12,9 @@ tags:
 categories:
 - Quickies
 ---
+
+![dnscrypt](assets/img/dnscrypt.png)
+> DNSCrypt is a network protocol designed by Frank Denis and Yecheng Fu, which authenticates Domain Name System traffic between the user's computer and recursive name servers.
 
 Running your own dnscrypt server isn't too difficult to setup and is one sure way logs of your activities are indeed not kept.
 
