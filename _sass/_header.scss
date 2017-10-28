@@ -63,8 +63,8 @@ header.sticky {
     }
     @include media-query($on-palm) {
         font-size: 18px;
-        margin-top: 1px;
-        margin-left: 0;
+        margin-top: 3px;
+        margin-left: 3px;
     }
 }
 
