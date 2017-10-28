@@ -145,7 +145,6 @@
     line-height: 1;
     @include media-query($on-laptop) {
         font-size: 28px;
-        margin-left: 10px;
     }
 }
 
@@ -155,14 +154,12 @@
         font-size: 24px;
         @include media-query($on-laptop) {
             font-size: 22px;
-            margin-left: 10px;
         }
     }
     h3 {
         font-size: 20px;
         @include media-query($on-laptop) {
             font-size: 18px;
-            margin-left: 10px;
         }
     }
     h4 {
@@ -170,7 +167,6 @@
         margin-bottom: 0;
         @include media-query($on-laptop) {
             font-size: 16px;
-            margin-left: 10px;
         }
     }
     blockquote {
@@ -182,9 +178,6 @@
         display: block;
         max-width: 550px;
         margin: 40px auto 0 auto;
-        @include media-query($on-laptop) {
-            margin-left: 10px;
-        }
     }
 }
 
