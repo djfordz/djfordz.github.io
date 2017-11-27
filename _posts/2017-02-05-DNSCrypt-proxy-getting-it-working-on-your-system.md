@@ -4,10 +4,10 @@ title: Setting up Personal Resolving DNS with Unbound and DNSCrypt-proxy
 author: David Ford
 ---
 
-
 It is very important to setup dnscrypt-proxy correctly and unbound correctly to ensure you are getting the highest security without leaks.
 
 Arch Linux Wiki is the best wiki out there to reference for setting up just about any type of Linux Software and I use the expertise of the Arch Linux Community to ensure I understand how things work.
+<br />
 [Arch Linux Unbound Wiki](https://wiki.archlinux.org/index.php/unbound)
 
 [Arch Linux DNSCrypt-proxy Wiki](https://wiki.archlinux.org/index.php/DNSCrypt)
