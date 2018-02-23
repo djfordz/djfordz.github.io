@@ -28,7 +28,7 @@ wifi.cloned-mac-address=random
 ethernet.cloned-mac-address=random
 ```
 
-ensuring `resolv.conf` isn't changed I first add `dns=none` as I have [Unbound](https://unbound.net/) and [DNSCrypt-proxy](https://www.dnscrypt.org/) set up for my dns.  I also use chattr +i on resolv.conf to ensure no other programs can change it. See [My Article on settinging up Unbound and Dnscrypt](http://www.djfordz.com/2017/02/05/DNSCrypt-proxy-getting-it-working-on-your-system.html).
+ensuring `resolv.conf` isn't changed I first add `dns=none` as I have [Unbound](https://unbound.net/) and [DNSCrypt-proxy](https://www.dnscrypt.org/) set up for my dns.  I also use chattr +i on resolv.conf to ensure no other programs can change it. See [My Article on settinging up Unbound and Dnscrypt](https://www.djfordz.com/2017/02/05/DNSCrypt-proxy-getting-it-working-on-your-system.html).
 
 I ensure my MAC address is randomized on connection with the `wifi.cloned-mac-address=random`.
 
