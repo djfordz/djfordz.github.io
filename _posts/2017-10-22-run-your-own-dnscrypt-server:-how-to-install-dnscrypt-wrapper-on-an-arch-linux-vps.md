@@ -13,7 +13,7 @@ categories:
 - Quickies
 ---
 
-![dnscrypt](http://djfordz.com/assets/img/dnscrypt.png)
+![dnscrypt](http://www.djfordz.com/assets/img/dnscrypt.png)
 > DNSCrypt is a network protocol designed by Frank Denis and Yecheng Fu, which authenticates Domain Name System traffic between the user's computer and recursive name servers.
 
 Running your own dnscrypt server isn't too difficult to setup and is one sure way logs of your activities are indeed not kept.
