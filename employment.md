@@ -5,7 +5,7 @@ layout: page
 
 # Employment
 
-<a href="https://docs.google.com/document/d/1HgaczqNNX5uhZpbPNjuZ_y7lwOTJgbVxeeN121JkYbs/edit?usp=sharing" target="_blank"><h4>Goto Resume</h4></a>
+<a href="https://docs.google.com/document/d/1HgaczqNNX5uhZpbPNjuZ_y7lwOTJgbVxeeN121JkYbs/edit?usp=sharing" target="_blank">Goto Resume</a>
 
 ### Infrastructure Developer @ Magemojo LLC
 * DevOps
