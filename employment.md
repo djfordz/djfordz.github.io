@@ -1,11 +1,27 @@
 ---
 title: Employment
 layout: page
+tags:
+- Resume
+- Employment
+- Magento
+- CV
 ---
 
 # Employment
 
 <a href="https://docs.google.com/document/d/1HgaczqNNX5uhZpbPNjuZ_y7lwOTJgbVxeeN121JkYbs/edit?usp=sharing" target="_blank">Goto Resume</a>
+
+### PHP Developer - Magento 1 & 2 @ Filofax Letts Blueline Group
+* Integrate all functionality required by business requirements in accordance with Magento Best Practices.
+* Create complex modules for both Magento 1 and Magento 2 to include payment methods, shipping methods, ERP integration.
+* Built entire autoscaling infrastructure on Amazon and moved away from Managed Hosting.
+* Monitor and Manage 30+ Magento sites accross 3 regions and in 16 languages.
+* Routinely travel to conferences or on site training in UK, Canada, or anywhere needed by company.
+* Design, Build, and Implement all functionality required by Business Requirements for both Magento 1 and Magento 2 sites.
+* Familiar with Magento 1 & 2 Best Practices as well as Objected Oriented Design Patterns, Dependency Injection, Service Workers, and all Modern PHP development principles.
+* Frontend Development with Javascript, Require.js, knockout.js, and jQuery.
+* REST and SOAP API integration.
 
 ### Infrastructure Developer @ Magemojo LLC
 * DevOps
