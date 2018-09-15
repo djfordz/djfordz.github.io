@@ -5,7 +5,7 @@ layout: page
 
 # Employment
 
-#### [Download Resume]({{ '/assets/resume_programmer_current.pdf' | prepend: site.url }})
+<a href="https://docs.google.com/document/d/1HgaczqNNX5uhZpbPNjuZ_y7lwOTJgbVxeeN121JkYbs/edit?usp=sharing" target="_blank"><h4>Goto Resume</h4></a>
 
 ### Infrastructure Developer @ Magemojo LLC
 * DevOps
