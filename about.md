@@ -4,7 +4,7 @@ title: About Me
 tags: [me]
 ---
 
-<div class='img-holder'><img class='logo' src='img/wordcamp_profile.jpg'></div>
+<div class='img-holder'><img class='logo' src='img/wordcamp_profile.jpg'><figcaption>WordcampEU 2018, Belgrade, Serbia</figcaption></div>
 
 >Team-Oriented, Highly-Motivated, Experienced Programmer ready to take on the challenge of engineering dynamic solutions to the World's problems.
 
