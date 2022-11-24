@@ -3,9 +3,8 @@
  */
 
 .site-footer {
-    position: absolute;
-    bottom: 0;
     width: 100%;
+    min-height: 150px;
     border-top: 1px solid $brand-color;
     padding: $spacing-unit 0 0 0;
     background-color: $header-color;
@@ -80,6 +79,7 @@
  */
 .page-landing {
     padding: $spacing-unit 0;
+    min-height: calc(100vh - 211px);
     h3 {
         margin-bottom: $spacing-unit /2;
         padding-bottom: 0;
