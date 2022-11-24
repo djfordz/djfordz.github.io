@@ -3,6 +3,8 @@
  */
 
 .site-footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
     border-top: 1px solid $brand-color;
     padding: $spacing-unit 0 0 0;
